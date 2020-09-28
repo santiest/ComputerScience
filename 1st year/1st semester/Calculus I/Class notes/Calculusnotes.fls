@@ -59,8 +59,8 @@ INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.s
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\parskip\parskip.sty
@@ -136,6 +136,10 @@ INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\transparent\tra
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\transparent\transparent.sty
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\auxhook\auxhook.sty
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titling\titling.sty
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titling\titling.sty
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
 INPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux
 INPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux
 OUTPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux
@@ -166,7 +170,29 @@ INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts
 INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 OUTPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.pdf
 INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecsl1200.tfm
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm2488.tfm
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx2488.tfm
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1728.tfm
+INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1728.tfm
 INPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
 INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
 INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk

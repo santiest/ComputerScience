@@ -6,7 +6,7 @@
 \usepackage{amssymb}
 \usepackage{mathtools}
 \usepackage{amsthm}
-\usepackage[spanish]{babel}
+\usepackage[english]{babel}
 \usepackage{parskip}
 \usepackage{float}
 \usepackage{physics}
@@ -19,6 +19,8 @@
 \usepackage{pdfpages}
 \usepackage{calc}
 \usepackage{svg}
+\usepackage{titling}
+\usepackage{array}
 
 \newcommand{\incfig}[1]{%
 \def\svgscale{1}
@@ -31,10 +33,64 @@
   \end{array}%
   }
 
-
 \begin{document}
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem*{cor}{Corollary}
+
+
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{conj}{Conjecture}[section]
+\newtheorem{exmp}[thm]{Example}
+
+\theoremstyle{remark}
+\newtheorem*{rem}{Remark}
+\newtheorem*{note}{Note}
+
+
 \title{Calculus I}
 \author{SyG}
 \maketitle
+
+
+\chapter{Introduction}
+\begin{defn}Mathematics (according to Oxford Eng. Dictionary) \end{defn}
+The abstract science which investigates deductively the conclusions implicit in the 
+elementary conception of spacial and numerical relations.
+This science can be divided in 6 main topics:
+\begin{enumerate}
+  \item \textbf{Foundations:} logic, set theory, proof theorems, etc.
+  \item \textbf{Algebra:} numbers, arithmetical operations, order theorems. 
+  \item \textbf{Analysis:} differentiation, integration, measure, etc.
+  \item \textbf{Geometry and topology:} proporties of space, shape, position ?? of figures.
+  \item \textbf{Combinatories:} graph theory, partition theory, etc.
+  \item \textbf{Applied Mathematics:} computational sciences, probability, the range of applications
+  of Mathematics is wide, such as:
+  \begin{enumerate}
+    \item \textbf{Banking and Finance:} Black and Schole ??
+    \item \textbf{Aeronautical engineering:} Fluid mechanics, shape design.
+    \item \textbf{Chemistry:} Models for proteing folding, thermodynamics.
+    \item \textbf{Informatic:} Cryptography, computational algebra, parallel programming, etc. 
+  \end{enumerate}
+\end{enumerate}
+
+
+\subsection*{Summary of the program: 1st Semester}
+\begin{itemize}
+  \item Real numbers
+  \item Sequence and series of numbers
+  \item Continuity and limit
+  \item Differentiation
+  \item Integration
+\end{itemize}
+
+\chapter{Real numbers and some basic concepts}
+
+\section{Set of points}
+We recall here some basical concepts:
+
 
 \end{document}

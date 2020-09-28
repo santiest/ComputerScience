@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.11)  28 SEP 2020 07:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.11)  28 SEP 2020 17:49
 entering extended mode
 **"c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex"
 ("c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex"
@@ -570,8 +570,8 @@ File: switch.def 2020/02/03 3.39 Babel switching mechanism
 *
 ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
  ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2020/02/03 3.39 Babel common definitions
 \babel@savecnt=\count195
@@ -580,12 +580,12 @@ File: babel.def 2020/02/03 3.39 Babel common definitions
 \bbl@readstream=\read2
 \bbl@dirlevel=\count196
 )
-\es@quottoks=\toks29
-\es@quotdepth=\count197
-Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
-Package babel Info: Making < an active character on input line 707.
-Package babel Info: Making > an active character on input line 707.
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language72) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language72) on input line 108.
 )) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/parskip\parskip.sty"
 Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
  ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoptions.sty"
@@ -596,13 +596,13 @@ Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count198
+\etb@tempcnta=\count197
 )) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count199
-\float@exts=\toks30
+\c@float@type=\count198
+\float@exts=\toks29
 \float@box=\box48
-\@float@everytoks=\toks31
+\@float@everytoks=\toks30
 \@floatcapt=\box49
 ) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/physics\physics.sty"
 Package: physics 
@@ -610,14 +610,14 @@ Package: physics
 Package: expl3 2020-02-03 L3 programming layer (loader) 
  ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count266
+\l__kernel_color_stack_int=\count199
 \l__pdf_internal_box=\box50
 ))
 Package: xparse 2020-02-03 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count267
-\g__xparse_grabber_int=\count268
-\l__xparse_m_args_int=\count269
-\l__xparse_v_nesting_int=\count270
+\l__xparse_current_arg_int=\count266
+\g__xparse_grabber_int=\count267
+\l__xparse_m_args_int=\count268
+\l__xparse_v_nesting_int=\count269
 )) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
  ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
@@ -635,14 +635,14 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@width=\dimen164
 ) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty"
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count271
+\c@tracingmulticols=\count270
 \mult@box=\box51
 \multicol@leftmargin=\dimen165
-\c@unbalance=\count272
-\c@collectmore=\count273
-\doublecol@number=\count274
-\multicoltolerance=\count275
-\multicolpretolerance=\count276
+\c@unbalance=\count271
+\c@collectmore=\count272
+\doublecol@number=\count273
+\multicoltolerance=\count274
+\multicolpretolerance=\count275
 \full@width=\dimen166
 \page@free=\dimen167
 \premulticols=\dimen168
@@ -693,15 +693,15 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box92
 \@tempa=\box93
 \@tempa=\box94
-\c@minrows=\count277
-\c@columnbadness=\count278
-\c@finalcolumnbadness=\count279
+\c@minrows=\count276
+\c@columnbadness=\count277
+\c@finalcolumnbadness=\count278
 \last@try=\dimen171
 \multicolovershoot=\dimen172
 \multicolundershoot=\dimen173
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
-\mc@col@check@num=\count280
+\mc@col@check@num=\count279
 ) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/import\import.sty"
 Package: import 2020/04/01  v 6.2
 ) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cancel\cancel.sty"
@@ -742,10 +742,10 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box97
-\AM@global@opts=\toks32
-\AM@pagecnt=\count281
-\AM@toc@title=\toks33
-\c@AM@survey=\count282
+\AM@global@opts=\toks31
+\AM@pagecnt=\count280
+\AM@toc@title=\toks32
+\c@AM@survey=\count281
 \AM@templatesizebox=\box98
 ) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/svg\svg.sty"
 Package: svg 2020/01/13 v2.02e (include SVG pictures)
@@ -765,32 +765,43 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \svg@box=\box99
-\c@svg@param@lastpage=\count283
-\c@svg@param@currpage=\count284
+\c@svg@param@lastpage=\count282
+\c@svg@param@currpage=\count283
 ) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transparent\transparent.sty"
 Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
  ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)) ("c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux"
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-)
+)) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titling\titling.sty"
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip61
+\thanksmargin=\skip62
+\droptitle=\skip63
+) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box100
+\extrarowheight=\dimen177
+\NC@list=\toks33
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box101
+) ("c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux")
 \openout1 = `Calculusnotes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -826,26 +837,24 @@ LaTeX Font Info:    ... okay on input line 35.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
 ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen176
-\scratchbox=\box100
-\nofMPsegments=\count286
-\nofMParguments=\count287
+\scratchcounter=\count284
+\scratchdimen=\dimen178
+\scratchbox=\box102
+\nofMPsegments=\count285
+\nofMParguments=\count286
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen177
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen179
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
 \everyMPtoPDFconversion=\toks35
 ) ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-\AtBeginShipoutBox=\box101
+\AtBeginShipoutBox=\box103
  ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdflscape\pdflscape.sty"
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
  ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
@@ -853,32 +862,39 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+\c@thm=\count290
+\c@conj=\count291
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
  ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
  ("C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{C:/Users/gina_/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] ("c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux"
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-) ) 
+{C:/Users/gina_/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+]
+Chapter 1.
+[3] [4
+
+]
+Chapter 2.
+[5] ("c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux") ) 
 Here is how much of TeX's memory you used:
- 8613 strings out of 481565
- 132147 string characters out of 2914179
- 430029 words of memory out of 3000000
- 23677 multiletter control sequences out of 15000+200000
- 537539 words of font info for 39 fonts, out of 3000000 for 9000
+ 8394 strings out of 481565
+ 129179 string characters out of 2914179
+ 428604 words of memory out of 3000000
+ 23444 multiletter control sequences out of 15000+200000
+ 543339 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,6n,45p,900b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on "c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.pdf" (1 page, 10661 bytes).
+ 43i,6n,45p,900b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
+Output written on "c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.pdf" (5 pages, 69092 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 220 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
