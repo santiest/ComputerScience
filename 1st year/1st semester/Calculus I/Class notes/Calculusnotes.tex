@@ -1,0 +1,40 @@
+\documentclass[12pt, a4paper]{book}
+\usepackage[top=2 cm, bottom=2 cm, left=2 cm, right=2 cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[UTF8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage[spanish]{babel}
+\usepackage{parskip}
+\usepackage{float}
+\usepackage{physics}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{cancel} 
+\usepackage{amsthm}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{calc}
+\usepackage{svg}
+
+\newcommand{\incfig}[1]{%
+\def\svgscale{1}
+\import{./figures/}{#1.pdf_tex}
+}
+\newcommand\vertarrowbox[3][6ex]{%
+  \begin{array}[t]{@{}c@{}} #2 \\
+  \left\downarrow\vcenter{\hrule height 0.2pt}\right.\kern-\nulldelimiterspace\\
+  \makebox[0pt]{\scriptsize#3}
+  \end{array}%
+  }
+
+
+\begin{document}
+\title{Calculus I}
+\author{SyG}
+\maketitle
+
+\end{document}
