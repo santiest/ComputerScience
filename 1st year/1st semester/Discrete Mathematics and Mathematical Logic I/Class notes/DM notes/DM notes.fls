@@ -1,225 +1,205 @@
-PWD c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Discrete Mathematics and Mathematical Logic I\Class notes\DM notes
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Discrete Mathematics and Mathematical Logic I\Class notes\DM notes\DM notes.tex
-OUTPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Discrete Mathematics and Mathematical Logic I\Class notes\DM notes\DM notes.log
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk12.clo
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk12.clo
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifvtex.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifvtex.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1200.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\UTF8.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\UTF8.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\parskip\parskip.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\parskip\parskip.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\physics\physics.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\physics\physics.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\import\import.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\import\import.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cancel\cancel.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cancel\cancel.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xifthen\xifthen.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xifthen\xifthen.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifmtarg\ifmtarg.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifmtarg\ifmtarg.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\atbegshi\atbegshi.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\atbegshi\atbegshi.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\svg\svg.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\svg\svg.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\shellesc.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\shellesc.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\transparent\transparent.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\transparent\transparent.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\auxhook\auxhook.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\auxhook\auxhook.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titling\titling.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titling\titling.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
-INPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Discrete Mathematics and Mathematical Logic I\Class notes\DM notes\DM notes.aux
-INPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Discrete Mathematics and Mathematical Logic I\Class notes\DM notes\DM notes.aux
-OUTPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Discrete Mathematics and Mathematical Logic I\Class notes\DM notes\DM notes.aux
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm2074.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1440.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Discrete Mathematics and Mathematical Logic I\Class notes\DM notes\DM notes.pdf
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecsl1200.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm2488.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx2488.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1728.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1728.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1200.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1440.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecti1200.tfm
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT c:\Users\gina_\UCM\ComputerScience\1st year\1st semester\Discrete Mathematics and Mathematical Logic I\Class notes\DM notes\DM notes.aux
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
-INPUT C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\gina_\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+PWD /home/santi/Git-Repos/ComputerScience/1st year/1st semester/Discrete Mathematics and Mathematical Logic I/Class notes/DM notes
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/santi/Git-Repos/ComputerScience/1st year/1st semester/Discrete Mathematics and Mathematical Logic I/Class notes/DM notes/DM notes.tex
+OUTPUT /home/santi/Git-Repos/ComputerScience/1st year/1st semester/Discrete Mathematics and Mathematical Logic I/Class notes/DM notes/DM notes.log
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/transparent/transparent.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/transparent/transparent.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+INPUT /home/santi/Git-Repos/ComputerScience/1st year/1st semester/Discrete Mathematics and Mathematical Logic I/Class notes/DM notes/DM notes.aux
+INPUT /home/santi/Git-Repos/ComputerScience/1st year/1st semester/Discrete Mathematics and Mathematical Logic I/Class notes/DM notes/DM notes.aux
+OUTPUT /home/santi/Git-Repos/ComputerScience/1st year/1st semester/Discrete Mathematics and Mathematical Logic I/Class notes/DM notes/DM notes.aux
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm2074.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+OUTPUT /home/santi/Git-Repos/ComputerScience/1st year/1st semester/Discrete Mathematics and Mathematical Logic I/Class notes/DM notes/DM notes.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm2488.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT /home/santi/Git-Repos/ComputerScience/1st year/1st semester/Discrete Mathematics and Mathematical Logic I/Class notes/DM notes/DM notes.aux
+INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb
