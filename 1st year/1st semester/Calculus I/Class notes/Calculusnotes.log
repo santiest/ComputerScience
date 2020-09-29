@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.11)  28 SEP 2020 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.11)  29 SEP 2020 11:00
 entering extended mode
 **"c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex"
 ("c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex"
@@ -882,19 +882,28 @@ Chapter 1.
 
 ]
 Chapter 2.
-[5] ("c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux") ) 
+[5]
+Overfull \hbox (16.2976pt too wide) in paragraph at lines 215--216
+[]\T1/cmr/m/it/12 Remark. []\T1/cmr/m/n/12 We can ap-ply the same no-ta-tion in case of in-fi-nite ($\OMS/cmsy/m/n/12 1$\T1/cmr/m/n/12 ) num-bers of a set $\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 A[]; [] ; A[]; []\OMS/cmsy/m/n/12 g$\T1/cmr/m/n/12 . 
+ []
+
+[6]
+
+LaTeX Warning: Command \b invalid in math mode on input line 276.
+
+[7] [8] ("c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.aux") ) 
 Here is how much of TeX's memory you used:
- 8394 strings out of 481565
- 129179 string characters out of 2914179
- 428604 words of memory out of 3000000
- 23444 multiletter control sequences out of 15000+200000
- 543339 words of font info for 47 fonts, out of 3000000 for 9000
+ 8455 strings out of 481565
+ 129841 string characters out of 2914179
+ 432604 words of memory out of 3000000
+ 23482 multiletter control sequences out of 15000+200000
+ 555430 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,6n,45p,900b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on "c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.pdf" (5 pages, 69092 bytes).
+ 43i,8n,45p,900b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\gina_\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "c:/Users\gina_\UCM\ComputerScience\1st year\1st semester\Calculus I\Class notes\Calculusnotes.pdf" (8 pages, 214718 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
+ 348 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
