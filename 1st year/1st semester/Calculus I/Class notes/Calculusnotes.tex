@@ -21,6 +21,7 @@
 \usepackage{svg}
 \usepackage{titling}
 \usepackage{array}
+\usepackage{enumitem}
 
 \newcommand{\incfig}[1]{%
 \def\svgscale{1}
@@ -50,6 +51,7 @@
 \newtheorem*{rem}{Remark}
 \newtheorem*{note}{Note}
 \newtheorem*{notation}{Notation}
+\newtheorem*{proposition}{Proposition}
 
 
 \title{Calculus I}
@@ -154,20 +156,20 @@ We recall here some basical concepts:
 The \textbf{union} of $A$ and $B$ is the set
 
 \[ 
-  A \cup B = \{x/x \in A \vee x \in B \}
+  A \cup B = \{x\vert x \in A \vee x \in B \}
 \]
 
 \subsection*{Intersection: $\cap$}
 
 The \textbf{intersection} of $A$ and $B$ is the set
 \[
-  A \cap B = \{x/x \in A \wedge x \in B \}
+  A \cap B = \{x\vert x \in A \wedge x \in B \}
 \]
 
 \subsection*{Complement: $\backslash$}
 
 \[
-  A \; \backslash \; B = \{x/x \in A \wedge x \notin B \}
+  A \; \backslash \; B = \{x\vert x \in A \wedge x \notin B \}
 \]
 \unboldmath
 \begin{exmp}
@@ -344,10 +346,10 @@ Here we only introduce the set of points used in next chapters.
   
   Let $a, \ b \in \mathbb{R}$:
   \begin{itemize}
-    \item \textbf{Open interval}: $(a,b) = \{x\in \mathbb{R} / a < x < b\}$
-    \item \textbf{Closed interval}: $[a,b] = \{x\in \mathbb{R} / a \leq x \leq b\}$
-    \item \textbf{Left closed interval}: $[a,b) = \{x\in \mathbb{R} / a \leq x<b\}$
-    \item \textbf{Left open interval}: $(a,b] = \{x\in \mathbb{R} / a < x \leq b\}$
+    \item \textbf{Open interval}: $(a,b) = \{x\in \mathbb{R} \vert a < x < b\}$
+    \item \textbf{Closed interval}: $[a,b] = \{x\in \mathbb{R} \vert a \leq x \leq b\}$
+    \item \textbf{Left closed interval}: $[a,b) = \{x\in \mathbb{R} \vert a \leq x<b\}$
+    \item \textbf{Left open interval}: $(a,b] = \{x\in \mathbb{R} \vert a < x \leq b\}$
   \end{itemize}
 \end{defn}
 
@@ -370,8 +372,8 @@ Here we only introduce the set of points used in next chapters.
     \begin{itemize}
       \item \textbf{Associativity}: $\forall x,y,z \in \mathbb{R}, \ (x+y)+z=x+(y+z)$
       \item \textbf{Commutativity}: $\forall x,y \in \mathbb{R}, \ x+y=y+x$
-      \item \textbf{Identity element}: $\exists 0 \in \mathbb{R}/ \ 0+x=x+0=x$
-      \item \textbf{Opposite element}: $\forall x \in \mathbb{R}, \exists! -x\in\mathbb{R}/ \ x+(-x)=(-x)+x=0$
+      \item \textbf{Identity element}: $\exists 0 \in \mathbb{R}\vert\ 0+x=x+0=x$
+      \item \textbf{Opposite element}: $\forall x \in \mathbb{R}, \exists! -x\in\mathbb{R}\vert \ x+(-x)=(-x)+x=0$
     \end{itemize}
 
     \item \textbf{Multiplication ($\cdot$)}: a function 
@@ -383,8 +385,8 @@ Here we only introduce the set of points used in next chapters.
     \begin{itemize}
       \item \textbf{Associativity}: $\forall x,y,z \in \mathbb{R}, \ (xy)z=x(yz)$
       \item \textbf{Commutativity}: $\forall x,y \in \mathbb{R}, \ xy=yx$
-      \item \textbf{Identity element}: $\exists 1 \in \mathbb{R}/ \ 1\cdot x=x\cdot 1=x$
-      \item \textbf{Inverse element}: $\forall x \in \mathbb{R}, \exists! \frac{1}{x}\in\mathbb{R}/ \ x\cdot \frac{1}{x} = \frac{1}{x} \cdot x = 1$
+      \item \textbf{Identity element}: $\exists 1 \in \mathbb{R}\vert \ 1\cdot x=x\cdot 1=x$
+      \item \textbf{Inverse element}: $\forall x \in \mathbb{R}, \exists! \frac{1}{x}\in\mathbb{R}\vert \ x\cdot \frac{1}{x} = \frac{1}{x} \cdot x = 1$
       \item \textbf{Distributivity}: $\forall x,y,z \in \mathbb{R}\backslash \{0\}, \ x(y+z)=xy + xz$
     \end{itemize}
 
@@ -397,7 +399,7 @@ Here we only introduce the set of points used in next chapters.
 
     \item The order is \textbf{Dedekind complete} (the supremum property):
     
-    $A \neq \emptyset, \ A \subseteq \mathbb{R} \wedge \exists k\in\mathbb{R} / \forall a\in A, a\leq k$ (where $k$ is called \textit{upper bound}) $\Rightarrow \exists \alpha$ denoted $\sup A$ and called least upper bound, such that $\forall a\in\mathbb{A}, a\leq\alpha$ and $\forall k\in\mathbb{R}$ upper bound of $A,\ \alpha \leq k$.
+    $A \neq \emptyset, \ A \subseteq \mathbb{R} \wedge \exists k\in\mathbb{R} \vert \forall a\in A, a\leq k$ (where $k$ is called \textit{upper bound}) $\Rightarrow \exists \alpha$ denoted $\sup A$ and called least upper bound, such that $\forall a\in\mathbb{A}, a\leq\alpha$ and $\forall k\in\mathbb{R}$ upper bound of $A,\ \alpha \leq k$.
   \end{itemize}
 \end{defn}
 
@@ -409,11 +411,11 @@ Here we only introduce the set of points used in next chapters.
 \section{Mathematical Functions}
 
 \begin{defn}
-  Let $A$ and $B$ being two sets. A function from $A$ to $B$, is a relation between $A$ and $B$, denoted by $f:A\rightarrow B$, such that $\forall a\in\mathbb{A}, \ \exists!\ b\in B / \ f(a) = b$.
+  Let $A$ and $B$ being two sets. A function from $A$ to $B$, is a relation between $A$ and $B$, denoted by $f:A\rightarrow B$, such that $\forall a\in\mathbb{A}, \ \exists!\ b\in B \vert \ f(a) = b$.
 
   The elements of $A$ are called arguments of $f$. The element $b\in B$ such that $f(a) = b$, with $a \in A$ is called value at $a$ or image of $a$ under $f$.
 
-  $A$ is called \textbf{domain} of $f$, $D(f)$, and $R(f) = \{b\in B/\ \exists a\in A /\ f(a)=b\}$ is the \textbf{range}.
+  $A$ is called \textbf{domain} of $f$, $D(f)$, and $R(f) = \{b\in B\vert\ \exists a\in A \vert\ f(a)=b\}$ is the \textbf{range}.
 \end{defn}
 
 \begin{notation}
@@ -448,8 +450,8 @@ Here we only introduce the set of points used in next chapters.
 
 \begin{defn}
   \begin{itemize}
-    \item If $E \subseteq A$, the image of $E$ under $f$ is $f(E) = \{f(x)/\ x\in E\}$.
-    \item If $H \subseteq B$, the preimage of $H$ under $f$ is $f^{-1}(H) = \{x\in A/\ f(x)\in H\}$
+    \item If $E \subseteq A$, the image of $E$ under $f$ is $f(E) = \{f(x)\vert\ x\in E\}$.
+    \item If $H \subseteq B$, the preimage of $H$ under $f$ is $f^{-1}(H) = \{x\in A\vert\ f(x)\in H\}$
   \end{itemize}
 \end{defn}
 
@@ -465,7 +467,7 @@ Here we only introduce the set of points used in next chapters.
   $f:A\longrightarrow B$
   \begin{itemize}
     \item $f$ is called \textbf{inyective} if $\forall a_1,a_2 \in A, f(a_1)=f(a_2) \Rightarrow a_1=a_2$
-    \item $f$ is called \textbf{suryective} if $\forall b \in B,\ \exists a\in A /\ f(a)=b$
+    \item $f$ is called \textbf{suryective} if $\forall b \in B,\ \exists a\in A \vert\ f(a)=b$
     \item $f$ is called \textbf{biyective} if $f$ is inyective and suryective.
   \end{itemize}
 \end{defn}
@@ -477,8 +479,89 @@ Here we only introduce the set of points used in next chapters.
       f:\mathbb{R} &\longrightarrow \mathbb{R} \\
       x &\longrightarrow x^2
     \end{align*}
-    It's not inyective, since $f(1) = f(-1)$, and it's not suryective since $-1\in\mathbb{R} \wedge \nexists a \in \mathbb{R}/\ f(a)=-1$
+    It's not inyective, since $f(1) = f(-1)$, and it's not suryective since $-1\in\mathbb{R} \wedge \nexists a \in \mathbb{R}\vert\ f(a)=-1$
+
+    \item 
+    \begin{align*}
+      f:[0,1] &\longrightarrow [1,2] \\
+      x &\longrightarrow x+1
+    \end{align*}
+    It is inyective, since $f(x_1) = f(x_2) \Rightarrow x_1+1=x_2+1 \Rightarrow x_1 = x_2$. It is also suryective, since $\forall x_1 \in [1,2],\; x_2=x_1-1 \in [0,1]$ and $f(x_2) = x_1$. Thus $f$ is biyective.
   \end{itemize}
 \end{exmp}
+
+\begin{defn}
+  Let $f:A \longrightarrow B$ and $f:B \longrightarrow C$, the composition of $f$ with $g$ is a function denoted as $g o f$ and defined by:
+  \begin{align*}
+    g o f:A &\longrightarrow C \\
+    a &\longrightarrow g(f(a))
+  \end{align*}
+\end{defn}
+
+\begin{exmp}
+  \begin{equation*}
+    \begin{aligned}[c]
+      g:\mathbb{R} &\longrightarrow \mathbb{R} \\
+      x &\longrightarrow \cos (x)
+    \end{aligned}
+    \qquad \qquad
+    \begin{aligned}[c]
+      f:\mathbb{R} &\longrightarrow \mathbb{R} \\
+      x &\longrightarrow x^2
+    \end{aligned}
+  \end{equation*}
+  $g o f(x) = \cos (x^2) \neq f o g(x) = {(\cos(x))}^2$
+\end{exmp}
+
+\begin{defn}
+  The identity function $f$ on $A$, is the function:
+  \begin{align*}
+    {id}_A:A &\longrightarrow A \\
+    x &\longrightarrow x
+  \end{align*}
+\end{defn}
+
+\begin{defn}
+  Let $f:A\longrightarrow B$ (biyective). The inverse function of $f$, denoted by $f^{-1}$, is the function $f^{-1}:B \longrightarrow A$ such that:
+  \[
+    b = f(a) \Leftrightarrow a = f^{-1}(b)
+  \]
+  Note that this is the same as saying $f o f^{-1}(b) = {id}_B$ and $f o f^{-1}(a) = {id}_A$.
+\end{defn}
+
+\begin{exmp}
+  $f o f^{-1}(x) = f(x-1) = (x-1)+1 = x$ and $f^{-1} o f(x) = (x+1)-1 = x$.
+\end{exmp}
+
+\begin{defn}
+  We call \textbf{real function} with real variable a function of the type $f:\mathbb{R} \longrightarrow \mathbb{R}$
+\end{defn}
+
+\section{Some properties of particular real sub-sets}
+
+\subsection*{Odd and Even sets}
+
+\begin{proposition}
+  Let $O_1,O_2 \in$ Odd, and $e_1,e_2 \in$ Even.
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item $O_1 + O_2$ is even.
+    \item $e_1 + e_2$ is even.
+    \item $e_1 + O_1$ is odd.
+    \item $e_1 \cdot e_2$ is even.
+    \item $O_1 \cdot O_2$ is odd.
+    \item $e_1 \cdot O_1$ is even.
+  \end{enumerate}
+\end{proposition}
+
+\begin{proof}
+  Let $e_1 = 2 k_1, e_2 = 2 k_2, O_1 = 2 k_3+1, O_2 = 2 k_4+1$ with $k_1, k_2, k_3, k_4 \in\mathbb{Z}$.
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item $O_1 + O_2 = 2 k_3 +1 +2 k_4 +1 = 2(k_3+k_4) + 2 = 2(k_3+k_4+1) \in$ Even.
+    \item $e_1 + e_2 = 2 k_1 + 2 k_2 = 2(k_1+k_2) \in$ Even.
+    \item $e_1 + O_1 = 2 k_1 +2 k_3 +1 = 2 (k_1+k_3) +1 \in$ Odd.
+    \item $e_1 \cdot e_2 = 2 k_1 \cdot 2 k_2 = 2(2k_1 k_2) \in$ Even.
+    \item $e_1 \cdot O_1 = 2 k_1 \cdot (2 k_3 +1) = 2 k_1 k_3 + 2 k_1 = 2 (k_1 k_3 + k_1) \in$ Even.
+  \end{enumerate}
+\end{proof}
 
 \end{document}
