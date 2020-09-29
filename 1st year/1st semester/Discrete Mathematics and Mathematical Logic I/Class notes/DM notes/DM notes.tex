@@ -6,7 +6,7 @@
 \usepackage{amssymb}
 \usepackage{mathtools}
 \usepackage{amsthm}
-\usepackage[spanish]{babel}
+\usepackage[english]{babel}
 \usepackage{parskip}
 \usepackage{float}
 \usepackage{physics}
@@ -19,6 +19,8 @@
 \usepackage{pdfpages}
 \usepackage{calc}
 \usepackage{svg}
+\usepackage{titling}
+\usepackage{array}
 
 \newcommand{\incfig}[1]{%
 \def\svgscale{1}
@@ -32,12 +34,130 @@
   }
 
 
-\begin{document}
-\title{Calculus I}
-\author{SyG}
-\maketitle
+  \begin{document}
+  \theoremstyle{plain}
+  \newtheorem{thm}{Theorem}[chapter]
+  \newtheorem{lem}[thm]{Lemma}
+  \newtheorem{prop}[thm]{Proposition}
+  \newtheorem*{cor}{Corollary}
+  
+  
+  \theoremstyle{definition}
+  \newtheorem{defn}[thm]{Definition}
+  \newtheorem{conj}{Conjecture}[section]
+  \newtheorem{exmp}[thm]{Example}
+  
+  \theoremstyle{remark}
+  \newtheorem*{rem}{Remark}
+  \newtheorem*{note}{Note}
+  
+  
+  \title{Discrete Mathematics}
+  \author{SyG}
+  \maketitle
+  
 
 \chapter{Introduction}
 
+\section*{Propositional logic}
+
+Propositional logic (and mathematics, in general) studies propositions: \textbf{declarative sentences} 
+(a sentence that declares a fact) that is either true or false, but not both.
+
+\begin{exmp}
+    Propositions:
+    \begin{enumerate}
+        \item Toronto is the capital of Canada (false but a declarative sentence nonetheless)
+        \item 1+1=2
+        \item 2+2=3 
+        \item 3 is a prime number
+    \end{enumerate}
+    The following are not propositions:
+
+    Not declarative:
+    \begin{enumerate}
+        \item What time is it?
+        \item Read this carefully.
+    \end{enumerate}
+
+    Neither true or false:
+
+    \begin{enumerate}
+        \item $x+1-2$
+        \item $x+y-z$
+    \end{enumerate}
+\end{exmp}
+
+We use letters to denote propositions: \textbf{p, q, r, }$\ldots$. Now propositions (called compound propositions) are
+constructed by combining one or more propositions using logical operators.
+
+\subsection*{Negation (NOT)}
+If p is a proposition, its negation is denoted by $\lnot p$. 
+
+"It's not the case that p". "The negation of p".
+
+\begin{exmp}
+    p: "My PC runs Linux"
+
+    $\lnot p$: "It's not the case that my PC runs Linux" $\Rightarrow$ "My PC doesn't run Linux"
+\end{exmp}
+
+\begin{exmp}
+    p: $1+1=2$
+    $\lnot$ p: $1+1 \neq 2$
+
+    $\Rightarrow \ \lnot p$ is true iff (if and only if) p is false.
+\end{exmp}
+
+\subsection*{Conjunction (AND)}
+
+Let p, q be two propositions $\Rightarrow$ $p \wedge q$ "p and q".
+
+$p \wedge q$ is true iff p and q are true.
+
+
+\begin{rem}
+    Sometimes the word "but" is used instead of "and". For example: 2 is even but 3 is odd.
+\end{rem}
+
+\subsection*{Disjunction (OR)}
+
+Let p, q be two propositions $\Rightarrow$ $p \vee q$ "p or q".
+
+$p \vee q$ is true iff p is true, q is true or both are.
+
+This correspondos to the \textbf{inclusive or} in English.
+
+\begin{rem}
+    The \textbf{exclusive or}, it is not possible to have both propositions. For example: soup or salad comes as an entrée, it most certainly
+    means that the customer cannot have both soup or salad.
+\end{rem}
+
+\subsection*{Conditional statement / Implication}
+
+Let p, q be two propositions $\Rightarrow$ $p \rightarrow q $ "if p, then q".
+
+Because of its essential role in mathematical reasoning, a variety of terminology is used to express $p \rightarrow q$:
+
+\begin{itemize}
+    \item if p and then q
+    \item if p, q $\rightarrow$ p implies q
+    \item q if p $\rightarrow$ p only if q
+    \item q when p
+    \item if p, q
+\end{itemize}
+
+$p \rightarrow q$ is false when p (the hypothesis / antecedent) is true and q (the consequence / conclusion) is false; otherwise, it is true.
+
+Useful way to understand its truth value: A pledge many politicians make when running for office: "If I'm elected, I will lower taxes".
+It is only when the politician is elected that (..) not lower taxes that it can be said he has broken his pledge.
+
+\begin{rem}
+    Note that this definition is more general tthan the meaning attached to such statements in English: there needs to be no relationship between p and q: "If the Moon is made of cheese, then 2+3=4".
+\end{rem}
+
+\subsection*{Biconditional statement / Bi-implication}
+
+$q \leftrightarrow q$. It's equivalent to $p$
 
 \end{document}
