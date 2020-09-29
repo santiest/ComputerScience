@@ -410,6 +410,64 @@ Here we only introduce the set of points used in next chapters.
     f:A &\longrightarrow B \\
     a &\longrightarrow f(a)
   \end{align*}
+  We can write $f$ maps $A$ to $B$.
 \end{notation}
+
+\begin{exmp}
+  \begin{align*}
+    f:\mathbb{R} &\longrightarrow \mathbb{R} \\
+    x &\longrightarrow x^2+1
+  \end{align*}
+  $f(1) = 1^2+1 = 2$
+
+  $f(2) = 2^2+1 = 5$
+
+  ***
+\end{exmp}
+
+\begin{defn}
+  The graph of a function is its set of ordered pairs $F=\{(a,f(a)),\ \forall a\in A\}$
+  \begin{align*}
+    f:\mathbb{R} &\longrightarrow \mathbb{R} \\
+    x &\longrightarrow x^2+1
+  \end{align*}
+
+  ***
+\end{defn}
+
+\begin{defn}
+  \begin{itemize}
+    \item If $E \subseteq A$, the image of $E$ under $f$ is $f(E) = \{f(x)/\ x\in E\}$.
+    \item If $H \subseteq B$, the preimage of $H$ under $f$ is $f^{-1}(H) = \{x\in A/\ f(x)\in H\}$
+  \end{itemize}
+\end{defn}
+
+\begin{exmp}
+  $A=B=\mathbb{R},\ f(x) = x^2$.
+  \begin{itemize}
+    \item $E = [0,2] \subset \mathbb{R} \quad f(E) = [0,4]$
+    \item $H = \{4,9\} \subset \mathbb{R} \quad f^{-1}(H) = \{-3,-2,2,3\}$
+  \end{itemize}
+\end{exmp}
+
+\begin{defn}
+  $f:A\longrightarrow B$
+  \begin{itemize}
+    \item $f$ is called \textbf{inyective} if $\forall a_1,a_2 \in A, f(a_1)=f(a_2) \Rightarrow a_1=a_2$
+    \item $f$ is called \textbf{suryective} if $\forall b \in B,\ \exists a\in A /\ f(a)=b$
+    \item $f$ is called \textbf{biyective} if $f$ is inyective and suryective.
+  \end{itemize}
+\end{defn}
+
+\begin{exmp}
+  \begin{itemize}
+    \item 
+    \begin{align*}
+      f:\mathbb{R} &\longrightarrow \mathbb{R} \\
+      x &\longrightarrow x^2
+    \end{align*}
+    It's not inyective, since $f(1) = f(-1)$, and it's not suryective since $-1\in\mathbb{R} \wedge \nexists a \in \mathbb{R}/\ f(a)=-1$
+  \end{itemize}
+\end{exmp}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.29)  29 SEP 2020 20:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.29)  29 SEP 2020 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -478,7 +478,7 @@ Overfull \hbox (16.2976pt too wide) in paragraph at lines 224--225
 []\T1/cmr/m/it/12 Remark. []\T1/cmr/m/n/12 We can ap-ply the same no-ta-tion in case of in-fi-nite ($\OMS/cmsy/m/n/12 1$\T1/cmr/m/n/12 ) num-bers of a set $\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 A[]; [] ; A[]; []\OMS/cmsy/m/n/12 g$\T1/cmr/m/n/12 . 
  []
 
-[6] [7] [8] [9] (/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.aux) ) 
+[6] [7] [8] [9] [10] (/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.aux) ) 
 Here is how much of TeX's memory you used:
  8422 strings out of 481239
  125203 string characters out of 5920377
@@ -488,10 +488,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  43i,12n,45p,903b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.pdf" (9 pages, 278514 bytes).
+Output written on "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.pdf" (10 pages, 281645 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
