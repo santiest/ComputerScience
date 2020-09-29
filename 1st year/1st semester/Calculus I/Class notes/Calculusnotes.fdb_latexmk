@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1601370015 "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex" "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.pdf" "Calculusnotes" 1601370016
+["pdflatex"] 1601372825 "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex" "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.pdf" "Calculusnotes" 1601373434
   "C:/Users/gina_/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1584830938 31952 00053d4cc72b52f8677fa4dfcac74a40 ""
   "C:/Users/gina_/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1584830047 40136 0cd8cad123bb41142656986832e1e64d ""
   "C:/Users/gina_/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1728.pk" 1589237365 49100 b53eff97fd8a4c2629c4993360d85115 ""
@@ -58,6 +58,7 @@
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb" 1247596666 34793 ae7a3e2775dc0ce90475eeabcb46f9f1 ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1247596666 32166 b0c356b15f19587482a9217ce1d8fa67 ""
+  "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb" 1247596666 36912 b448ef9ad9d7228ec3c6e71005136d55 ""
@@ -65,6 +66,7 @@
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
+  "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb" 1247596671 29407 8c6dfc0f2d83bfc4807c3b1dc90ef23e ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb" 1247596670 35479 2cca68718f15872e7cce1a8f6033b99b ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
@@ -143,13 +145,13 @@
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/gina_/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xifthen/xifthen.sty" 1448278036 5689 1bfa68243e89a54479e7d0580773c57e ""
-  "Calculusnotes.aux" 1601370016 569 dc089fb1c7886bbe556ee436470b6dc8 "pdflatex"
-  "Calculusnotes.tex" 1601370014 9424 703837a7f18cdffa259c6f1509da4bb3 ""
-  "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.aux" 1601370016 569 dc089fb1c7886bbe556ee436470b6dc8 ""
-  "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex" 1601370014 9424 703837a7f18cdffa259c6f1509da4bb3 ""
+  "Calculusnotes.aux" 1601372827 569 dc089fb1c7886bbe556ee436470b6dc8 "pdflatex"
+  "Calculusnotes.tex" 1601373433 10933 21ce43ad36fff65bd1912371d76864b1 ""
+  "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.aux" 1601372827 569 dc089fb1c7886bbe556ee436470b6dc8 ""
+  "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex" 1601373433 10933 21ce43ad36fff65bd1912371d76864b1 ""
   (generated)
   "Calculusnotes.log"
   "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.pdf"
   "c:/Users/gina_/UCM/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.log"
-  "Calculusnotes.pdf"
   "Calculusnotes.aux"
+  "Calculusnotes.pdf"
