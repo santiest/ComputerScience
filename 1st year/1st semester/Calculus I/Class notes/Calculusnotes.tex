@@ -49,6 +49,7 @@
 \theoremstyle{remark}
 \newtheorem*{rem}{Remark}
 \newtheorem*{note}{Note}
+\newtheorem*{notation}{Notation}
 
 
 \title{Calculus I}
@@ -199,7 +200,7 @@ Graphically (Venn diagrams):
 ***
 
 \begin{note}
-  In the case of various n sets denoted by $A_1, \ A_2, \ A_n$, instead of writing:
+  In the case of various $n$ sets denoted by $A_1, \ A_2, \ A_n$, instead of writing:
 
   \[
     A_1 \cup A_2 \cup \ldots \cup A_n \text{ we write } \bigcup_{k=1}^{n} A_k
@@ -341,27 +342,74 @@ Here we only introduce the set of points used in next chapters.
 
 \subsubsection*{Properties:} $\mathbb{R} = (-\infty , +\infty)$
 
-
+***
 
 \begin{defn}
   \textbf{Axiomatic definition of }$\mathbb{R}$.
 
-  The real number system $(\mathbb{R}, +, *, <)$ is a set where the following rules are defined.
+  The real number system $(\mathbb{R}, +, \cdot, <)$ is a set where the following rules are defined.
 
   \begin{itemize}
     \item \textbf{Addition (+)}: a function
-    \begin{align}
+    \begin{align*}
       \mathbb{R}\times \mathbb{R} &\longrightarrow \mathbb{R} \\
       (x,y) &\longrightarrow x+y
-    \end{align}
+    \end{align*}
     with the following properties:
     \begin{itemize}
-      \item \textbf{Associativity}: $\forall x,y,z \in \mathbb{R} (x+y)+z=x+(y+z)$
-      \item \textbf{Commutativity}: $\forall x,y,z \in \mathbb{R} (x+y)+z=x+(y+z)$
-      \item \textbf{Associativity}: $\forall x,y,z \in \mathbb{R} (x+y)+z=x+(y+z)$
+      \item \textbf{Associativity}: $\forall x,y,z \in \mathbb{R}, \ (x+y)+z=x+(y+z)$
+      \item \textbf{Commutativity}: $\forall x,y \in \mathbb{R}, \ x+y=y+x$
+      \item \textbf{Identity element}: $\exists 0 \in \mathbb{R}/ \ 0+x=x+0=x$
+      \item \textbf{Opposite element}: $\forall x \in \mathbb{R}, \exists! -x\in\mathbb{R}/ \ x+(-x)=(-x)+x=0$
     \end{itemize}
+
+    \item \textbf{Multiplication ($\cdot$)}: a function 
+    \begin{align*}
+      \mathbb{R}\times \mathbb{R} &\longrightarrow \mathbb{R} \\
+      (x,y) &\longrightarrow x \cdot y
+    \end{align*}
+    with the following properties:
+    \begin{itemize}
+      \item \textbf{Associativity}: $\forall x,y,z \in \mathbb{R}, \ (xy)z=x(yz)$
+      \item \textbf{Commutativity}: $\forall x,y \in \mathbb{R}, \ xy=yx$
+      \item \textbf{Identity element}: $\exists 1 \in \mathbb{R}/ \ 1\cdot x=x\cdot 1=x$
+      \item \textbf{Inverse element}: $\forall x \in \mathbb{R}, \exists! \frac{1}{x}\in\mathbb{R}/ \ x\cdot \frac{1}{x} = \frac{1}{x} \cdot x = 1$
+      \item \textbf{Distributivity}: $\forall x,y,z \in \mathbb{R}\backslash \{0\}, \ x(y+z)=xy + xz$
+    \end{itemize}
+
+    \item The field $(\mathbb{R},+,\cdot)$ is ordered:
+    \begin{itemize}
+      \item $\geq$ is a total order.
+      \item $\forall x,y,z\in\mathbb{R}, \ x\geq y \Rightarrow x+y \geq y+z$
+      \item $\forall x,y \geq 0, \ xy\geq 0$
+    \end{itemize}
+
+    \item The order is \textbf{Dedekind complete} (the supremum property):
+    
+    $A \neq \emptyset, \ A \subseteq \mathbb{R} \wedge \exists k\in\mathbb{R} / \forall a\in A, a\leq k$ (where $k$ is called \textit{upper bound}) $\Rightarrow \exists \alpha$ denoted $\sup A$ and called least upper bound, such that $\forall a\in\mathbb{A}, a\leq\alpha$ and $\forall k\in\mathbb{R}$ upper bound of $A,\ \alpha \leq k$.
   \end{itemize}
 \end{defn}
 
+\begin{rem}
+  $\mathbb{N}$ cannot be defined axiomatically (e.g. $0\notin\mathbb{N}$)
+\end{rem}
+
+
+\section{Mathematical Functions}
+
+\begin{defn}
+  Let $A$ and $B$ being two sets. A function from $A$ to $B$, is a relation between $A$ and $B$, denoted by $f:A\rightarrow B$, such that $\forall a\in\mathbb{A}, \ \exists!\ b\in B / \ f(a) = b$.
+
+  The elements of $A$ are called arguments of $f$. The element $b\in B$ such that $f(a) = b$, with $a \in A$ is called value at $a$ or image of $a$ under $f$.
+
+  $A$ is called \textbf{domain} of $f$, $D(f)$, and $R(f) = \{b\in B/\ \exists a\in A /\ f(a)=b\}$ is the \textbf{range}.
+\end{defn}
+
+\begin{notation}
+  \begin{align*}
+    f:A &\longrightarrow B \\
+    a &\longrightarrow f(a)
+  \end{align*}
+\end{notation}
 
 \end{document}
