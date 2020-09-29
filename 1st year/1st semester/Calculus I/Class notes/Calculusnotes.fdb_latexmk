@@ -1,8 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1601408121 "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex" "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.pdf" "Calculusnotes" 1601410229
+["pdflatex"] 1601410248 "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex" "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.pdf" "Calculusnotes" 1601410248
+  "./Graphics/Graphic1c.pdf_tex" 1601410247 2059 d482a289d79c9c76707af3a028f8c497 ""
   "/etc/texmf/web2c/texmf.cnf" 1601387921 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.aux" 1601408122 679 76b81857e31ca2b81d17ac9301415a74 ""
-  "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex" 1601410228 15680 c9f6da2758806ab69c00e6578c7c56f8 ""
+  "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.aux" 1601410248 680 cbf5d270df991e7e9647f5ea649f6ecc ""
+  "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.tex" 1601410247 15741 d1948ed69512ebbe3ecb85da35077a26 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1136768653 3584 13049b61b922a28b158a38aeff75ee9b ""
@@ -146,11 +147,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1601387966 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1601388026 8262316 0ec4d71d8cf523e52955f7e77523473e ""
-  "Calculusnotes.aux" 1601408122 679 76b81857e31ca2b81d17ac9301415a74 "pdflatex"
-  "Calculusnotes.tex" 1601410228 15680 c9f6da2758806ab69c00e6578c7c56f8 ""
+  "Calculusnotes.aux" 1601410248 680 cbf5d270df991e7e9647f5ea649f6ecc "pdflatex"
+  "Calculusnotes.tex" 1601410247 15741 d1948ed69512ebbe3ecb85da35077a26 ""
+  "Graphics/Graphic1c.pdf" 1601410247 7297 a355935ea3a03af06f6929dba04e6722 ""
+  "Graphics/Graphic1c.pdf_tex" 1601410247 2059 d482a289d79c9c76707af3a028f8c497 ""
   (generated)
   "Calculusnotes.log"
-  "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.log"
-  "Calculusnotes.pdf"
   "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.pdf"
   "Calculusnotes.aux"
+  "/home/santi/Git-Repos/ComputerScience/1st year/1st semester/Calculus I/Class notes/Calculusnotes.log"
+  "Calculusnotes.pdf"
