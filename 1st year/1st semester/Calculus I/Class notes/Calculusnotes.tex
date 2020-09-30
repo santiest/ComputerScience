@@ -411,9 +411,9 @@ Here we only introduce the set of points used in next chapters.
 \section{Mathematical Functions}
 
 \begin{defn}
-  Let $A$ and $B$ being two sets. A function from $A$ to $B$, is a relation between $A$ and $B$, denoted by $f:A\rightarrow B$, such that $\forall a\in\mathbb{A}, \ \exists!\ b\in B \vert \ f(a) = b$.
+  \boldmath Let $A$ and $B$ being two sets. A function from $A$ to $B$, is a relation between $A$ and $B$, denoted by $f:A\rightarrow B$, such that $\forall a\in A, \ \exists!\ b\in B / \ f(a) = b$. \unboldmath
 
-  The elements of $A$ are called arguments of $f$. The element $b\in B$ such that $f(a) = b$, with $a \in A$ is called value at $a$ or image of $a$ under $f$.
+  The elements of $A$ are called \textbf{arguments of} $f$. The element $b\in B$ such that $f(a) = b$, with $a \in A$ is called \textbf{value} at $a$ or \textbf{image} of $a$ under $f$.
 
   $A$ is called \textbf{domain} of $f$, $D(f)$, and $R(f) = \{b\in B\vert\ \exists a\in A \vert\ f(a)=b\}$ is the \textbf{range}.
 \end{defn}
@@ -423,7 +423,7 @@ Here we only introduce the set of points used in next chapters.
     f:A &\longrightarrow B \\
     a &\longrightarrow f(a)
   \end{align*}
-  We can write $f$ maps $A$ to $B$.
+  We can write \boldmath $f$ \textbf{maps} $A$ to $B$. \unboldmath
 \end{notation}
 
 \begin{exmp}
@@ -439,12 +439,12 @@ Here we only introduce the set of points used in next chapters.
 \end{exmp}
 
 \begin{defn}
-  The graph of a function is its set of ordered pairs $F=\{(a,f(a)),\ \forall a\in A\}$
+  The graph of a function is \textbf{its set of ordered pairs} \boldmath $F=\{(a,f(a)),\ \forall a\in A\}$
   \begin{align*}
     f:\mathbb{R} &\longrightarrow \mathbb{R} \\
     x &\longrightarrow x^2+1
   \end{align*}
-
+  \unboldmath
   ***
 \end{defn}
 
@@ -464,13 +464,19 @@ Here we only introduce the set of points used in next chapters.
 \end{exmp}
 
 \begin{defn}
+  \boldmath
   $f:A\longrightarrow B$
   \begin{itemize}
     \item $f$ is called \textbf{inyective} if $\forall a_1,a_2 \in A, f(a_1)=f(a_2) \Rightarrow a_1=a_2$
     \item $f$ is called \textbf{suryective} if $\forall b \in B,\ \exists a\in A \vert\ f(a)=b$
-    \item $f$ is called \textbf{biyective} if $f$ is inyective and suryective.
+    \item $f$ is called \textbf{biyective} if $f$ is \textbf{inyective and suryective.}
   \end{itemize}
+  \unboldmath
 \end{defn}
+
+\begin{rem}
+  If a function is biyective you can obtain its inverse.
+\end{rem}
 
 \begin{exmp}
   \begin{itemize}
@@ -491,11 +497,13 @@ Here we only introduce the set of points used in next chapters.
 \end{exmp}
 
 \begin{defn}
-  Let $f:A \longrightarrow B$ and $f:B \longrightarrow C$, the composition of $f$ with $g$ is a function denoted as $g o f$ and defined by:
+  \boldmath
+  Let $f:A \longrightarrow B$ and $f:B \longrightarrow C$, the \textbf{composition of} $f$ with $g$ is a function denoted as $g \circ f$ and defined by:
   \begin{align*}
-    g o f:A &\longrightarrow C \\
+    g \circ f:A &\longrightarrow C \\
     a &\longrightarrow g(f(a))
   \end{align*}
+  \unboldmath
 \end{defn}
 
 \begin{exmp}
@@ -514,19 +522,23 @@ Here we only introduce the set of points used in next chapters.
 \end{exmp}
 
 \begin{defn}
-  The identity function $f$ on $A$, is the function:
+  \boldmath
+  The \textbf{identity function} $f$ on $A$, is the function:
   \begin{align*}
     {id}_A:A &\longrightarrow A \\
     x &\longrightarrow x
   \end{align*}
+  \unboldmath
 \end{defn}
 
 \begin{defn}
+  \boldmath
   Let $f:A\longrightarrow B$ (biyective). The inverse function of $f$, denoted by $f^{-1}$, is the function $f^{-1}:B \longrightarrow A$ such that:
   \[
     b = f(a) \Leftrightarrow a = f^{-1}(b)
   \]
-  Note that this is the same as saying $f o f^{-1}(b) = {id}_B$ and $f o f^{-1}(a) = {id}_A$.
+  Note that this is the same as saying $f \circ f^{-1}(b) = {id}_B$ and $f \circ f^{-1}(a) = {id}_A$.
+  \unboldmath
 \end{defn}
 
 \begin{exmp}
@@ -542,6 +554,7 @@ Here we only introduce the set of points used in next chapters.
 \subsection{Odd and Even sets}
 
 \begin{proposition}
+  \boldmath
   Let $O_1,O_2 \in$ Odd, and $e_1,e_2 \in$ Even.
   \begin{enumerate}[label=\emph{\alph*})]
     \item $O_1 + O_2$ is even.
@@ -551,6 +564,7 @@ Here we only introduce the set of points used in next chapters.
     \item $O_1 \cdot O_2$ is odd.
     \item $e_1 \cdot O_1$ is even.
   \end{enumerate}
+  \unboldmath
 \end{proposition}
 
 \begin{proof}
@@ -601,11 +615,12 @@ Here we only introduce the set of points used in next chapters.
 
 \begin{prop}
   \textbf{Well-Ordering Principle}
-
+  \boldmath
   Let $B \subseteq \mathbb{N}$ and $B \neq \emptyset$.
 
   It always exists $n_0 \in B$ such that $\forall m\in B$, $n_0 \leq m$. Such $n_0$ is called minimum of $B$ and denoted $\min B$.
   *** principio pagina 13
+  \unboldmath
 \end{prop}
 
 \begin{defn}
@@ -622,7 +637,7 @@ Here we only introduce the set of points used in next chapters.
   \begin{proof}
     \textbf{W.O.P.} (Well-Ordering Principle). We will see the following proposition is false, proving it by absurdity.
 
-    Let $J = \mathbb{N} \backslash B$. $P_n = ``\{1,\ldots,n\} \in J''$. We start with
+    Let $J = \mathbb{N} \backslash B$. $"P_n = \{1,\ldots,n\} \in J"$. We start with
     \begin{enumerate}[label=\emph{\alph*})]
       \item $P_1 = ``1 \in J''$. True, else we would be saying that $\min B = 1$.
       \item $P_n = \{1,\ldots,n \in J\}$, then $n+1 \in J$, else $\min B = n+1$ (as $1,\ldots,n \notin B$).
