@@ -206,5 +206,80 @@ $$\forall x, \ P(x) \text{ is true iff P(a) is true for all elements a in the un
     \end{enumerate}
 \end{exmp}
 
+\subsubsection*{Existencial quantification}
 
+$$P(x) \ \rightarrow \ \exists x, \ P(x) \ : \ \text{"There exists an element x in the domain such that P(x)"}.$$
+
+$$\exists x, \ P(x) \text{ is true iff P(a) is true for some a in the universe}$$
+
+\begin{exmp}
+    \begin{enumerate}
+        \item $\exists x, \ x<0$ is true in $\mathbb{R}$ but not in $\mathbb{N}$.
+        \item $\forall x, \ \exists y, \ x+y=0$ is True in $\mathbb{R}$ and False in $\mathbb{N}$.
+        \item $\exists y, \ \forall x, \ x+y=0$ is False in $\mathbb{R}$ and True in $\mathbb{N}$.
+    \end{enumerate}
+\end{exmp}
+
+\begin{rem}
+    The order of the quantifiers matters.
+\end{rem}
+
+\begin{rem}
+    What if the universe is empty (there are no elements)?
+    $$\forall x, \ P(x) \text{ is trivially true}$$
+    $$\exists x, \ P(x) \text{ is false}$$
+\end{rem}
+
+\subsection*{Proof techniques}
+\subsubsection*{Direct proofs}
+$p \rightarrow q$ can be proved by showing that if p is True then q must be also True.
+
+\begin{exmp}
+    %If n is even then $n^2$ is even.
+    %***
+    %assumming n is even, therefore n=2k, k in N. 
+    %we later have n^2=4k^2, k in N. We can define
+    %i=k^2.
+    %n^2=4i. 
+    %as any number divisible by 4 is also divisible by 2, n^2 is even.
+\end{exmp}
+
+\subsubsection*{Proof by contraposition}
+To prove $p \rightarrow q$ is equivalent to showing its contrapositive: $\lnot q \rightarrow \lnot p$.
+
+False iff $\lnot q$ is True, $\lnot p$ is False.
+
+$\Leftrightarrow$ q is False, p is True.
+
+$\Leftrightarrow$ p $\rightarrow$ is False.
+
+\begin{exmp}
+    If $3n+2$ is odd, then n is odd.
+    ***
+\end{exmp}
+
+\subsubsection*{Vacuous and trivial proofs}
+$p \rightarrow q$ is True if the hypothesis is False.
+
+$p \rightarrow q$ is True if so is q.
+
+\begin{exmp}
+    If $n^2$ is odd then n is odd (contrapositive: start with a draft proof)
+\end{exmp}
+
+\subsubsection*{Proofs by contradiction}
+
+To show that q is True it is enough to show that $\lnot p$ leads to a contradiction.
+
+\begin{exmp}
+    Out of 22 weekdays, at least 4 must fell on the same day of the week.
+\end{exmp}
+
+\subsubsection*{Counterexample}
+To show that $\forall x, \ P(x)$ is False, we need to only find a value such that P(a) is False.
+
+\begin{exmp}
+    Every positive integer is the sum of the squares of two integers:
+    $$6=1^2+2^2+1^2 \text{ but } 7=\ldots !$$
+\end{exmp}
 \end{document}
