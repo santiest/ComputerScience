@@ -539,7 +539,7 @@ Here we only introduce the set of points used in next chapters.
 
 \section{Some properties of particular real sub-sets}
 
-\subsection*{Odd and Even sets}
+\subsection{Odd and Even sets}
 
 \begin{proposition}
   Let $O_1,O_2 \in$ Odd, and $e_1,e_2 \in$ Even.
@@ -563,5 +563,72 @@ Here we only introduce the set of points used in next chapters.
     \item $e_1 \cdot O_1 = 2 k_1 \cdot (2 k_3 +1) = 2 k_1 k_3 + 2 k_1 = 2 (k_1 k_3 + k_1) \in$ Even.
   \end{enumerate}
 \end{proof}
+
+\begin{proposition}
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item $n$ is even from previous proposition. $n^2 = n \cdot n$ is even.
+    \begin{proof}
+      Trivial due to section e) of previous proofs.
+    \end{proof}
+    \item \begin{proof}
+      ${(n+p)}^2$ is even $\Rightarrow (n+p)$ is even $\Rightarrow$ $n,p$ are even $\vee\ n,p$ are odd $\Rightarrow$  
+    
+      $\Rightarrow \displaystyle
+      \begin{cases} 
+        \text{if } n,p \text{ even} &\Rightarrow n-p \text{ is even} \\
+        \text{if } n,p \text{ odd} &\Rightarrow n-p \text{ is even}
+      \end{cases}\quad \Rightarrow {(n-p)}^2$ is even.
+
+      $\Leftarrow$ would use the same idea. Justifying steps with previous proof.
+    \end{proof}
+    % Aca habian varias pruebas redundantes (?????)
+  \end{enumerate}
+\end{proposition}
+
+\subsection{$\mathbb{N}$ and $\mathbb{Z}$}
+
+\begin{prop}
+  Let $n_1, n_2 \in \mathbb{N}$ and $z_1, z_2 \in \mathbb{Z}$
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item $n_1 + n_2 \in \mathbb{N}$
+    \item $n_1 \cdot n_2 \in \mathbb{N}$
+    \item $z_1 + z_2 \in \mathbb{N}$
+    \item $z_1 \cdot z_2 \in \mathbb{N}$
+    \item $n_1 \geq n_2$ or $n_2 \geq n_1$
+    \item $z_1 \geq z_2$ or $z_2 \geq z_1$
+  \end{enumerate}
+\end{prop}
+
+\begin{prop}
+  \textbf{Well-Ordering Principle}
+
+  Let $B \subseteq \mathbb{N}$ and $B \neq \emptyset$.
+
+  It always exists $n_0 \in B$ such that $\forall m\in B$, $n_0 \leq m$. Such $n_0$ is called minimum of $B$ and denoted $\min B$.
+  *** principio pagina 13
+\end{prop}
+
+\begin{defn}
+  \textbf{Mathematical Induction}
+
+  We want to demonstrate a statement $P_n$ involving $n\in\mathbb{N}$ for all values of $n$. We have to follow these steps:
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item We prove that the statement holds for the first value of $n$.
+    \item We prove that if the statement holds for $n$, then it holds for $n+1$.
+  \end{enumerate}
+\end{defn}
+
+\begin{exmp}
+  \begin{proof}
+    \textbf{W.O.P.} (Well-Ordering Principle). We will see the following proposition is false, proving it by absurdity.
+
+    Let $J = \mathbb{N} \backslash B$. $P_n = ``\{1,\ldots,n\} \in J''$. We start with
+    \begin{enumerate}[label=\emph{\alph*})]
+      \item $P_1 = ``1 \in J''$. True, else we would be saying that $\min B = 1$.
+      \item $P_n = \{1,\ldots,n \in J\}$, then $n+1 \in J$, else $\min B = n+1$ (as $1,\ldots,n \notin B$).
+    \end{enumerate}
+    $\Rightarrow \forall n\in\mathbb{N}\in J \Rightarrow B = \emptyset \Rightarrow$ ABSURD.
+  \end{proof}
+\end{exmp}
 
 \end{document}
