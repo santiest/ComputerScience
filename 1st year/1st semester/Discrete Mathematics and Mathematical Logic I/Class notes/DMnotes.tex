@@ -150,7 +150,7 @@ Because of its essential role in mathematical reasoning, a variety of terminolog
 $p \rightarrow q$ is false when p (the hypothesis / antecedent) is true and q (the consequence / conclusion) is false; otherwise, it is true.
 
 Useful way to understand its truth value: A pledge many politicians make when running for office: "If I'm elected, I will lower taxes".
-It is only when the politician is elected that (..) not lower taxes that it can be said he has broken his pledge.
+It is only when the politician is elected that (..) not lower taxes that it can be said he has broken his pledge. ??????? no se q quiso poner x aca
 
 \begin{rem}
     Note that this definition is more general tthan the meaning attached to such statements in English: there needs to be no relationship between p and q: "If the Moon is made of cheese, then 2+3=4".
@@ -158,8 +158,9 @@ It is only when the politician is elected that (..) not lower taxes that it can 
 
 \subsection*{Biconditional statement / Bi-implication}
 
-$q \leftrightarrow q$. It's equivalent to $(p \rightarrow q) \wedge (q \rightarrow p)$. It's True iff the truth 
-values of p and q are the same.
+$q \leftrightarrow q$. It's equivalent to $(p \rightarrow q) \wedge (q \rightarrow p)$. 
+
+It's True iff the truth values of p and q are the same.
 
 The main advantage of logical language over natural ones is that it removes ???.
 
@@ -184,7 +185,7 @@ By denoting the predicate with P, the statement can be represented as $P(x)$.
 
 \subsection*{Quantifiers}
 
-In addition to assigning values to variables, there is another way to get truth values from predicate statements. For that, it is necessary to assume a domain or universe of discover???
+In addition to assigning values to variables, there is another way to get truth values from predicate statements. For that, it is necessary to assume a domain or universe.
 
 \subsubsection*{Universal quantification}
 
@@ -200,7 +201,7 @@ $$\forall x, \ P(x) \text{ is true iff P(a) is true for all elements a in the un
             \item $\forall x \in \mathbb{N}, \ x \geq 0$
             \item $\forall x \in \mathbb{R}, \ x \geq 0$
         \end{itemize}
-        \item $U= \{0, \ 1, \ 2, \ 3 \}, \ \forall x, \ x^2<10$ is true.
+        \item $U= \{0, \ 1, \ 2, \ 3 \}, \ \forall x \in U, \ x^2<10$ is true.
         \item $\forall x, \ \forall y, \ \ x+y>x$ is true in $\mathbb{N}$, false in $\mathbb{R}$.
         \item $\forall x, \ \forall y, \ \ x \cdot y >x+y$ is false in $\mathbb{N}$ and in $\mathbb{R}$
     \end{enumerate}
@@ -208,15 +209,18 @@ $$\forall x, \ P(x) \text{ is true iff P(a) is true for all elements a in the un
 
 \subsubsection*{Existencial quantification}
 
-$$P(x) \ \rightarrow \ \exists x, \ P(x) \ : \ \text{"There exists an element x in the domain such that P(x)"}.$$
-
+$$P(x) \ \rightarrow \ \exists x, \ P(x) \ : \ \text{"There exists at least one element x in the domain such that P(x)"}.$$
 $$\exists x, \ P(x) \text{ is true iff P(a) is true for some a in the universe}$$
 
 \begin{exmp}
+    $\exists x, \ x<0$ is true in $\mathbb{R}$ but not in $\mathbb{N}$.
+\end{exmp}
+
+\subsubsection*{Both quantifiers}
+\begin{exmp}
     \begin{enumerate}
-        \item $\exists x, \ x<0$ is true in $\mathbb{R}$ but not in $\mathbb{N}$.
-        \item $\forall x, \ \exists y, \ x+y=0$ is True in $\mathbb{R}$ and False in $\mathbb{N}$.
-        \item $\exists y, \ \forall x, \ x+y=0$ is False in $\mathbb{R}$ and True in $\mathbb{N}$.
+        \item $\forall x, \ \exists y: \ x+y=0$ is True in $\mathbb{R}$ and False in $\mathbb{N}$.
+        \item $\exists y, \ \forall x: \ x+y=0$ is False in $\mathbb{R}$ and True in $\mathbb{N}$.
     \end{enumerate}
 \end{exmp}
 
@@ -235,13 +239,15 @@ $$\exists x, \ P(x) \text{ is true iff P(a) is true for some a in the universe}$
 $p \rightarrow q$ can be proved by showing that if p is True then q must be also True.
 
 \begin{exmp}
-    %If n is even then $n^2$ is even.
-    %***
-    %assumming n is even, therefore n=2k, k in N. 
-    %we later have n^2=4k^2, k in N. We can define
-    %i=k^2.
-    %n^2=2*(2i). 
-    %therefore n^2 is even.
+    \begin{proof} [If n is even then $n^2$ is even. ]
+        Assumming n is even, therefore $n=2k, \ k \in \mathbb{N}.$ 
+        
+        We then have $n^2=4k^2, \ k \in \mathbb{N}$. We can define $i=k^2.$
+    
+        $\Rightarrow \ n^2=2 \cdot (2i). \Rightarrow$ We define $2i=m$ 
+        
+        $\therefore n^2=2 \cdot m$ is even.
+    \end{proof}
 \end{exmp}
 
 \subsubsection*{Proof by contraposition}
@@ -251,11 +257,19 @@ False iff $\lnot q$ is True, $\lnot p$ is False.
 
 $\Leftrightarrow$ q is False, p is True.
 
-$\Leftrightarrow$ p $\rightarrow$ is False.
+$\Leftrightarrow$ p $\rightarrow$ q is False.
 
 \begin{exmp}
-    If $3n+2$ is odd, then n is odd.
-    ***
+    \begin{proof}[If $3n+2$ is odd, then n is odd.]
+
+
+    We define p="If $3n+2$ is odd" and q="n is odd."
+
+    $\Rightarrow \ \lnot q$="n is even".
+    *** terminar
+
+    \end{proof}
+
 \end{exmp}
 
 \subsubsection*{Vacuous and trivial proofs}
@@ -265,6 +279,8 @@ $p \rightarrow q$ is True if so is q.
 
 \begin{exmp}
     If $n^2$ is odd then n is odd (contrapositive: start with a draft proof)
+
+    *** terminar
 \end{exmp}
 
 \subsubsection*{Proofs by contradiction}
@@ -272,14 +288,23 @@ $p \rightarrow q$ is True if so is q.
 To show that q is True it is enough to show that $\lnot p$ leads to a contradiction.
 
 \begin{exmp}
-    Out of 22 weekdays, at least 4 must fell on the same day of the week.
+
+    \begin{proof}[Out of 22 weekdays, at least 4 must fall on the same day of the week.]    
+
+    Let's first assume that the result is not True i.e. False. 
+
+    If each day is repeated 3 times, we have 21 weekdays in the end. But as we have 22 weekdays, at least one of them is repeated 4 times. Therefore the hypothesis by contradiction is True.
+
+    \end{proof}
 \end{exmp}
 
 \subsubsection*{Counterexample}
 To show that $\forall x, \ P(x)$ is False, we need to only find a value such that P(a) is False.
 
 \begin{exmp}
-    Every positive integer is the sum of the squares of two integers:
-    $$6=1^2+2^2+1^2 \text{ but } 7=\ldots !$$
+    \begin{proof}[Every positive integer is the sum of three squares]
+    $$6=1^2+2^2+1^2 \text{ but } 7= 2^2+1^2+1^2+1^2 \text{ (it's four squares)} $$
+    \end{proof}
+
 \end{exmp}
 \end{document}
