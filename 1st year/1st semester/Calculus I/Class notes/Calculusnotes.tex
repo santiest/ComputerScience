@@ -22,6 +22,7 @@
 \usepackage{titling}
 \usepackage{array}
 \usepackage{enumitem}
+\usepackage{yhmath}
 
 \newcommand{\incfig}[1]{%
 \def\svgscale{1}
@@ -93,7 +94,7 @@ This science can be divided in 6 main topics:
 \chapter{Real numbers and some basic concepts}
 
 \section{Set of points}
-We recall here some basical concepts:
+We recall here some basic concepts:
 \begin{defn}
   A \textbf{set} is a \textbf{collection of distinct objects.}
 \end{defn}
@@ -229,7 +230,7 @@ Graphically (Venn diagrams):
     A_1=\{1, \ 2, \ 3 \}, \ \ \ A_2=\{ 5,\ 6, \ 7 \}, \ \ \ A_3= \{1, \ 5, \ 9 \}
   \]
   \[
-    \bigcup_{k=1}^{3} A_k=A_1 \cup A_2 \cup A_3 = \{ 1, \ 2, \ 3, \ 5, \ 7, \ 9 \}
+    \bigcup_{k=1}^{3} A_k=A_1 \cup A_2 \cup A_3 = \{ 1, \ 2, \ 3, \ 5, \ 6, \ 7, \ 9 \}
   \]
 \end{exmp}
 
@@ -247,7 +248,7 @@ some examples and the concept of infinity will be defined in the next sections.
     A \times B = \{ (a, \ b  ) \ | \ a \in A \text{ and } b \in B \}
   \]
   \unboldmath
-  where (a, b) is called \textbf{ordened pair.} 
+  where $(a, b)$ is called \textbf{ordered pair.} 
 \end{defn}
 
 \begin{exmp}
@@ -294,6 +295,26 @@ Here we only introduce the set of points used in next chapters.
 \end{rem}
 
 \begin{defn}
+  Let $A$ and $B$ be two sets, and their cartesian product $A \times B$, any subset $S \subseteq A \times B$ is called a \textbf{relation} between $A$ and $B$.
+\end{defn}
+
+\begin{exmp}
+  $A = \{1,2,3\}, B = \{a,b\}$. A relation could be $R = \{(1,a), (2,b), (3,b)\}$.
+\end{exmp}
+
+\begin{defn}
+  Some properties of relation $S$ are:
+  \begin{itemize}
+    \item \textbf{Reflexive:} $\forall a \in S, \ (a,a)\in S$
+    \item \textbf{Symetric:} $(a,b)\in S$ and $ (b,a)\in S \Rightarrow \ a=b$
+    \item \textbf{Antisymmetric:} $(a,b)\in S$ and $ (b,a)\in S \Rightarrow \ a=b$
+    \item \textbf{Transitive:} $(a,b)\in S$ and $(b,c)\in S \Rightarrow (a,c)\in S$
+    \item \textbf{Comparable (or connex):} $\forall \ a, b \in S$, either $(a,b)\in S$ or $(b,a)\in S$
+  \end{itemize}
+  \textbf{Important note}: antisymmetric \textbf{IS NOT} the negation of symetric. The negation of symetric would be asymetric.
+\end{defn}
+
+\begin{defn}
   \boldmath
   A \textbf{relation}, noted by $\leq $, is a \textbf{total order} on a set S if it verifies:
   \begin{enumerate}
@@ -302,10 +323,19 @@ Here we only introduce the set of points used in next chapters.
     \item \textbf{Transitivity:} $a \leq b$ and $b \leq c \Rightarrow a \leq c$
     \item \textbf{Comparability:} $\forall \ a, b \in S$, either $a \leq b$ or $b \leq a$
   
-    When Reflexivity, Antisymmetry and Transitivity occurs but no Comparability, then we have a \textbf{partial order}.
+    When Reflexivity, Antisymmetry and Transitivity occurs but no Comparability, then we have a \textbf{partial order}. For a \textbf{total order}, we would need Comparability.
   \end{enumerate}
   \unboldmath
 \end{defn}
+
+\begin{exmp}
+  The divisibility relation, denoted by $``|''$, on the set of natural numbers $\mathbb{N} = \{1,2,3,\ldots\}$ is a classic example of a partial order relation.
+  \begin{itemize}
+    \item The relation $``|''$ is reflexive, because any $a\in\mathbb{N}$ divides itself.
+    \item The relation $``|''$ is antisymmetric. Indeed, if $a|b$, then $ak=b$, where $k$ is an integer. Similarly, if $b|a$, then $bl=a$, where $l$ is an integer. Hence, $akl=l\Rightarrow kl=1$. This last equation only holds if $k=l=1$, which means that $a=b$.
+    \item The relation $``|''$ is transitive. Suppose $a|b$ and $b|c$. Then $ak=b$ and $bl=c$, where $k$, $l$ are certain integers. Hence $akl=c$, and $kl$ is an integer. That means $a|c$.
+  \end{itemize}
+\end{exmp}
 
 \begin{exmp}
   \begin{itemize}
@@ -355,7 +385,27 @@ Here we only introduce the set of points used in next chapters.
 
 \subsubsection*{Properties:} $\mathbb{R} = (-\infty , +\infty)$
 
-***
+\subsection*{Graphical representation:}
+
+\begin{figure}[H]
+  \centering
+  \incfig{Graphic3}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \incfig{Graphic3b}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \incfig{Graphic3c}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \incfig{Graphic3d}
+\end{figure}
 
 \begin{defn}
   \textbf{Axiomatic definition of }$\mathbb{R}$.
@@ -365,8 +415,8 @@ Here we only introduce the set of points used in next chapters.
   \begin{itemize}
     \item \textbf{Addition (+)}: a function
     \begin{align*}
-      \mathbb{R}\times \mathbb{R} &\longrightarrow \mathbb{R} \\
-      (x,y) &\longrightarrow x+y
+      \mathbb{R}\times \mathbb{R} &\mapsto \mathbb{R} \\
+      (x,y) &\mapsto x+y
     \end{align*}
     with the following properties:
     \begin{itemize}
@@ -435,7 +485,16 @@ Here we only introduce the set of points used in next chapters.
 
   $f(2) = 2^2+1 = 5$
 
-  ***
+  \begin{figure}[H]
+    \centering
+    \incfig{Graphic4a}
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \incfig{Graphic4b}
+  \end{figure}
+  
 \end{exmp}
 
 \begin{defn}
@@ -445,8 +504,13 @@ Here we only introduce the set of points used in next chapters.
     x &\longrightarrow x^2+1
   \end{align*}
   \unboldmath
-  ***
+
 \end{defn}
+
+\begin{figure}[H]
+  \centering
+  \incfig{Graphic5}
+\end{figure}
 
 \begin{defn}
   \begin{itemize}
@@ -645,5 +709,339 @@ Here we only introduce the set of points used in next chapters.
     $\Rightarrow \forall n\in\mathbb{N}\in J \Rightarrow B = \emptyset \Rightarrow$ ABSURD.
   \end{proof}
 \end{exmp}
+
+\begin{exmp}
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item $\displaystyle P_n = \sum_{k = 1}^{n}k = \frac{n(n+1)}{2}$
+    \begin{itemize}
+      \item $\displaystyle P_1 = 1 = \frac{1(1+1)}{2} = 2$
+      \item $P_n$ true. $\displaystyle P_n = \sum_{k = 1}^{n}k = \frac{n(n+1)}{2} \Rightarrow \sum_{k = 1}^{n+1}k = \frac{n(n+1)}{2} + n+1 = \frac{n(n+1)}{2} + n+1 = \frac{n(n+1)+2n+2}{2} = \frac{(n+1)((n+1)+1)}{2} \Rightarrow \sum_{k = 1}^{n+1}k = \frac{(n+1)((n+1)+1)}{2}$ $P_{n+1} =$ true.
+    \end{itemize}
+    \item $\displaystyle P_n = \sum_{k = 0}^{n}r^k = \frac{1-r^{n+1}}{1-r}$
+    \begin{itemize}
+      \item $\displaystyle P_1 = r^0 + r = 1+r = \frac{1-r^2}{1-r} = \frac{(1+r)(1-r)}{1-r} = 1+r$ true.
+      \item $P_n$ true. $\displaystyle P_n = \sum_{k = 0}^{n+1}r^k = \sum_{k = 0}^{n}r^k + r^{n+1} = \frac{1-r^{n+1}+r^{n+1}-r\cdot r^{n+1}}{1-r} = \frac{1-r^{n+2}}{1-r} \Rightarrow P_{n+1}$ true.
+    \end{itemize}
+  \end{enumerate}
+\end{exmp}
+
+
+\section{$\mathbb{Q}$}
+
+\begin{proposition}
+  $Q_1,Q_2 \in \mathbb{Q}$
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item $Q_1 + Q_2 \in \mathbb{Q}$
+    \item $Q_1 \cdot Q_2 \in \mathbb{Q}$
+    \item $\displaystyle \frac{1}{Q_1} \in \mathbb{Q}$ (if $Q_1 \neq 0$)
+    \item $Q_1 \leq Q_2$ or $Q_2 \leq Q_1$
+  \end{enumerate}
+\end{proposition}
+
+\begin{exmp}
+  a) Let $\displaystyle p \in \mathbb{Q}, p\neq 0 \Rightarrow p = \frac{a}{b}, a,b \in \mathbb{Z}\backslash \{0\}$.
+
+  Let $\displaystyle x \notin \mathbb{Q}$. If $p+x \in \mathbb{Q}$, $\exists c,d \in \mathbb{Z} \vert p+x = \frac{c}{d} \Rightarrow \frac{a}{b} + x = \frac{c}{d} \Rightarrow x = \frac{c}{d} - \frac{a}{b} = \frac{bc-ad\in \mathbb{Z}}{db \in \mathbb{Z}\backslash \{0\}} \Rightarrow x \in \mathbb{Q}$ absurd.
+\end{exmp}
+
+\begin{exmp}
+  $\sqrt{2}$ is irrational.
+  \begin{proof}
+    Lets assume that $\sqrt{2}$ is rational. Then we can write $\displaystyle\sqrt{2} = \frac{p}{q}$ where we may assume that $p$ and $q$ have no common factors (if there are any common factors we cancel them in the numerator and denominator) $\Rightarrow \frac{p^2}{q^2} = 2 \Rightarrow p^2 = 2 q^2 \Rightarrow p$ even $\Rightarrow p^2$ is divisible by $4$ (i.e. $p^2=4m, m\in\mathbb{N}$) $\Rightarrow q^2 = 2m \Rightarrow q$ even (i.e. $q = 2s, s\in\mathbb{N}$). Then $p$ and $q$ have a common factor ($2$). Absurd.
+  \end{proof}
+\end{exmp}
+
+\begin{prop}
+  $\sqrt{m}$, with $n\in\mathbb{N}$ and such that $n$ is not a square number (i.e. $\nexists\ p\in\mathbb{N} \vert\ p^2 = n$), is irrational.
+\end{prop}
+
+\begin{defn}
+  An \textbf{algebraic number} is a real number that is a root of a non-zero polinomial with rational coefficients, i.e. if $n$ is algebraic, it exists a polinomial
+  \[
+    \displaystyle p(x) = a_0 + a_1 x + a_2 x^2 + \ldots + a_k x^k = \sum_{i = 0}^{k}a_i x^i  
+  \]
+  such that $p(n)=0$.
+\end{defn}
+
+\begin{exmp}
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item If $\sqrt{2} - \sqrt{3}$ is rational $\Rightarrow {(\sqrt{2} - \sqrt{3})}^2$ is rational $\Rightarrow 5 - 2\sqrt{2}\sqrt{3}$ is rational $\Rightarrow \sqrt{6}$ is rational $\Rightarrow$ absurd.
+    \item $\displaystyle 1 - \sqrt[3]{2+\sqrt{5}}$
+    
+    \begin{proof}
+      $2$ is algebraic and $\sqrt{5}$ is algebraic (since it exists the polinomial $x^2-5$) $\Rightarrow 2+\sqrt{5}$ is algebraic and root of $p(x) \Rightarrow \sqrt[3]{2+\sqrt{5}}$ is root of $p(x^3)$ (i.e. all exponents of $x$ are increased by $3$). Then $p(x)=x^2+x-1 \Rightarrow p(x^3) = x^6 +x^3 -1 \Rightarrow 1$ is algebraic $\Rightarrow \sqrt[3]{2+\sqrt{5}}$ is algebraic.
+    \end{proof}
+  \end{enumerate}
+\end{exmp}
+
+\begin{defn}
+  A decimal representation of a real number $r$ is an expression of the form:
+  \[
+    r = a_0. a_1 a_2 a_3 a_4 \ldots \text{ with } a_i \in\mathbb{N}, i\in\mathbb{N}
+  \]
+  $\displaystyle r = \sum_{i = 1}^{\infty} \frac{a_i}{10^i} $
+\end{defn}
+
+\begin{prop}
+  The decimal representation of a real number $r$ either terminates (i.e. $\exists n_0\in\mathbb{N}\ \vert\ a_i=0\ \forall i \geq n_0$) or begins to repeat a same finite sequence over and over iff $r$ is rational.
+\end{prop}
+
+\begin{exmp}
+  $0.127841841841841\ldots$ is rational.
+
+  $\pi = 3.14159265\ldots$ is irrational.
+\end{exmp}
+
+\begin{prop}
+  $\mathbb{Q}$ and $\mathbb{R}\backslash\mathbb{Q}$ are dense in $\mathbb{R}$: $\forall x_1,x_2 \in\mathbb{R}, x_1<x_2,\ \exists q\in\mathbb{Q}$ and $n\in\mathbb{R}\backslash\mathbb{Q}\ \vert\ x_1<q<x_2$ and $x_1<n<x_2$.
+\end{prop}
+
+\section{$\mathbb{R}$}
+
+\subsection*{Distance in $\mathbb{R}$}
+
+\begin{defn}
+  The \textbf{absolute value} or a modulus of a real number $x$ is denoted $|x|$ and defined by:
+  \[
+    |x| = \begin{cases}
+      x &x\geq 0 \\
+      -x &x<0
+    \end{cases}
+  \]
+\end{defn}
+
+\begin{figure}[H]
+  \centering
+  \incfig{Graphic7}
+\end{figure}
+
+\begin{prop}
+  Properties
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item $|x| = \sqrt{x^2}$
+    \item $|xy| = |x|\cdot |y|$
+    \item $|x+y| \leq |x| + |y|$
+  \end{enumerate}
+  \begin{proof}
+    $\begin{cases}
+      x\leq |x| & \wedge\ y\leq |y| \\
+      -x\leq |x| & \wedge\ -y\leq |y|
+    \end{cases} \Rightarrow 
+    \begin{cases}
+      x+y \leq |x|+|y| \\
+      -(x+y) \leq |x|+|y|
+    \end{cases} \Rightarrow
+    |x+y|\leq |x|+|y|$
+  \end{proof}
+\end{prop}
+
+\begin{defn}
+  $\forall x,y\in\mathbb{R}$ we call $|x-y|$ the distance from $x$ to $y$.
+\end{defn}
+
+\begin{proposition}
+  Properties. $\forall x,y,z \in\mathbb{R}$
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item $|x-y|=0 \Leftrightarrow x=y$
+    \item $|x-y| = |y-x|$
+    \item $|x-y| \leq |x-z| + |z-y|$ (Triangle inequality)
+  \end{enumerate}
+\end{proposition}
+
+\begin{exmp}
+  \begin{enumerate}[label=\emph{\alph*})]
+    \item $|2x+3|-1 < |x|$
+    We determine all the cases of signs:
+    \[
+      \displaystyle x < -\frac{3}{2}, 0>x\geq -\frac{3}{2}, x\geq 0
+    \]
+    \begin{itemize}
+      \item $x\geq 0 \Rightarrow |2x+3| = 2x+3 \geq 0$ and $|x|=0\geq 0$. The equation leads to:
+
+      $2x+3-1 < x \Rightarrow x < -2 \Rightarrow x < -2 \Rightarrow$ absurd.
+      \item $x<-\frac{3}{2} \Rightarrow |2x+3|=-2x-3$ and $|x|=-x$. Then $-2x-3-1 < -x \Rightarrow -2x-4 < -x \Rightarrow 2x+4>x \Rightarrow x>-4 \Rightarrow x\in(-4,-\frac{3}{2})$
+      \item $x\in[-\frac{3}{2},0) \Rightarrow |2x+3|=2x+3,\ |x|=-x$
+
+      $2x+3-1 < -x \Rightarrow 3x < -2 \Rightarrow x< -\frac{2}{3} \Rightarrow x\in[-\frac{3}{2}, -\frac{2}{3}]$
+    \end{itemize}
+    The solutions are $\displaystyle x\in(-4,-\frac{2}{3})$
+
+    \item Same idea: $x\geq 4;\ 4>x\geq 0;\ x<0$
+    
+    $|2-|x|| = 2+|x|$
+    \begin{itemize}
+      \item $x\geq 2$: $|x|=x$, $|2-|x|| = -2+x \Rightarrow -2+x=2+x \Rightarrow 2=-2$ absurd.
+      \item $2>x\geq 0$: $|x|=x$, $|2-|x||=2-x \Rightarrow x-x=x+x \Rightarrow x=-x \Rightarrow x=0$
+      \item $0>x\geq -2$: $|x|=-x$, $|2-|x|| = 2+x \Rightarrow 2-x=2+x \Rightarrow x=0$
+      \item $x<-2$: $|x|=-x$, $|2-|x|| = -2+x \Rightarrow -2+x=2-x \Rightarrow 2x=4 \Rightarrow x=2$ absurd.
+    \end{itemize}
+    The solution is $x=0$.
+  \end{enumerate}
+\end{exmp}
+
+\subsection*{Some applications of the axiomatic definition of $\mathbb{R}$}
+
+\textbf{1.7}
+\begin{enumerate}[label=\emph{\alph*})]
+  \item $ax=a$ and $a\neq 0 \Rightarrow x = \frac{a}{a} = 1$
+  \item ${(x+y)}^2 = (x+y)(x+y) = x^2 + 2xy + y^2$
+  \item $(x+y)(x-y) = x^2 + xy - xy - y^2 = x^2 - y^2$
+  \item $x^2 = y^2 \Rightarrow x = \pm \sqrt{x^2} \Rightarrow \begin{cases}
+    x = +|y| \\
+    x = -|y|
+  \end{cases} \Rightarrow x = \pm y$
+  \item $(x-y)(x^2 + xy + y^2) = x^3 + x^2y + x y^2 - x^2y - x y^2 - y^3 = x^3 - y^3$
+  \item $\displaystyle (x-y) (\sum_{i = 0}^{n-1} x^{n-(i+1)}y^i) = \sum_{i = 0}^{n-1} x^{n-i}y^i - \sum_{i = 0}^{n-1} x^{n-(i+1)}y^{i+1} = x^n + \sum_{i = 1}^{n-1} x^{n-i} y^i - \sum_{i = 0}^{n-2} x^{n-(i+1)}y^{i+1} - y^n = x^n + \sum_{i = 1}^{n-1} x^{n-i} y^i - \sum_{i = 1}^{n-1} x^{n-i}y^{i} - y^n  = x^n - y^n$
+\end{enumerate}
+
+\textbf{1.8} $0<a<b$
+\begin{enumerate}[label=\emph{\alph*})]
+  \item $\displaystyle 0 < \frac{a+b}{2} < \sqrt{\frac{a^2+b^2}{2}} \Rightarrow \frac{a^2+b^2+2ab}{4} < \frac{a^2+b^2}{2} \Rightarrow 2ab < a^2+b^2 \Rightarrow 0 < a^2 + b^2 - 2ab \Rightarrow 0 < {(a-b)}^2$
+  \item $\sqrt{ab} < \frac{a+b}{2} \Rightarrow 2\sqrt{ab} < a + b \Rightarrow 4ab < a^2 + b^2 + 2ab \Rightarrow 2ab < a^2+b^2$
+  \item $\frac{2ab}{a+b} < \sqrt{ab} \Rightarrow 2ab < \sqrt{ab}(a+b) \Rightarrow 4a^2b^2 < ab {(a+b)}^2 \Rightarrow 4ab < a^2 + b^2 + 2ab$
+\end{enumerate}
+
+\textbf{1.8}
+\begin{enumerate}[label=\emph{\alph*})]
+  \item $a \leq b$ and $\forall \epsilon >0,\ a\leq b \leq a+\epsilon$
+
+  \begin{proof}
+    If $a<b \Rightarrow 0<b-a \Rightarrow \exists \epsilon_b >0\ |\ \epsilon_b < b-a \Rightarrow a + \epsilon_b < b$ with $\epsilon_b > 0 \Rightarrow$ absurd $\Rightarrow a=b$.
+  \end{proof}
+  
+  \item $a\leq b$ and $\forall \epsilon > 0\quad b-\epsilon \leq a \leq b$.
+
+  \begin{proof}
+    If $a<b \Rightarrow a-b < 0 \Rightarrow \exists \epsilon_a > 0\ |\ a-b < -\epsilon_a \Rightarrow a<b-\epsilon_a,\ \epsilon_a > 0$, absurd $\Rightarrow a=b$
+  \end{proof}
+\end{enumerate}
+
+\subsection*{Boundaries of real subsets}
+\boldmath
+\begin{defn}
+  Let $A \subseteq \mathbb{R}$. $A$ is called \textbf{bounded from above} if $\exists k\in\mathbb{R}\ |\ \forall a\in A,\ a\leq k$. In this case, $k$ is called upper bound of $A$.
+
+  $A$ is called \textbf{bounded from below} if $\exists k\in\mathbb{R}\ |\ \forall a\in A,\ a\geq k$. $k$ is called lower bound.
+
+  If $A$ has both upper and lower bounds, then $A$ is called a bounded set.
+\end{defn}
+\unboldmath
+
+\begin{exmp}
+  $(0,+\infty)$ is bounded from below by any $k \leq 0$ but not bounded from above.
+\end{exmp}
+
+\begin{exmp}
+  If we have the following set: $A=[0, \ 3)$, we have this interval of upper bounds: $[3, \ \infty]$ and this one of lower bounds: $(-\infty,\ 0]$
+
+  Then infimum: 0 $\Rightarrow$ as $0 \in A \Rightarrow 0$ is minimum.
+
+  Supremum: 3 $\Rightarrow$ there does not exist maximum!
+\end{exmp}
+
+\begin{defn}
+  $A \subseteq \mathbb{R},\ \alpha$ is called \textbf{supremum} of $A$ (or least upper bound) if:
+  \begin{itemize}
+    \item $\alpha$ is an upper bound of $A$.
+    \item $\forall k\in\mathbb{R}$ upper bound of $A$, $\alpha \leq k$.
+  \end{itemize}
+  We denote $\alpha = \sup A$.
+\end{defn}
+
+\begin{defn}
+  $A \subseteq \mathbb{R},\ \beta$ is called \textbf{infimum} of $A$ (or greatest lower bound) if:
+  \begin{itemize}
+    \item $\beta$ is an upper bound of $A$.
+    \item $\forall k\in\mathbb{R}$ lower bound of $A$, $\beta \geq k$.
+  \end{itemize}
+  We denote $\beta = \inf A$.
+\end{defn}
+
+\begin{exmp}
+  $A = [3,5],\quad \sup A = 5$ and $\inf A = 3$.
+\end{exmp}
+
+\begin{proposition}
+  \begin{itemize}
+    \item If $A \subseteq \mathbb{R}$ is bounded from above, then $A$ admits a supremum.
+    \item If $A \subseteq \mathbb{R}$ is bounded from below, then $A$ admits a infimum.
+  \end{itemize}
+\end{proposition}
+
+\begin{defn}
+  Let $A \subseteq \mathbb{R}$
+  \begin{itemize}
+    \item If $\sup A$ exists and $\sup A \in A$, then $\sup A$ is called \textbf{maximum} of $A$ and is denoted $\max A$.
+    \item If $\inf A$ exists and $\inf A \in A$, then $\inf A$ is called \textbf{minimum} of $A$ and is denoted $\min A$.
+  \end{itemize}
+\end{defn}
+
+\begin{exmp}
+  $A = [3,4),\quad \min A = \inf A = 3. \quad \sup A = 4 \notin A \Rightarrow \max A$ does not exist.
+\end{exmp}
+
+\textbf{1.10}: $A$ bounded and $A_0 \subseteq A$.
+\begin{itemize}
+  \item \textbf{From above}: If $A_0$ is not bounded from above (b.f.a.) $\forall k\in\mathbb{R},\ \exists a_0 \in A_0\ |\ a_0 >k \Rightarrow \forall k\in\mathbb{R},\ \exists a_0 \in A\ |\ a_0>k \Rightarrow A$ is not b.f.a. $\Rightarrow$ absurd.
+
+  Furthermore, $\forall a\in A_0,\ a\in A$ and $a\leq \sup A \Rightarrow \sup A$ is an upper bound of $A_0 \Rightarrow \sup A \geq \sup A_0$.
+  \item \textbf{From below}: same idea.
+\end{itemize}
+
+\textbf{1.10}: $A,B\subset \mathbb{R}$ bounded.
+\[
+  A+B = \{x\in\mathbb{R}\ |\ x=a+b,\ a\in A,b\in B\}
+\]
+
+\begin{itemize}
+  \item $\forall x\in A+B,\ x=a+b \leq \sup A + \sup B$ since $a\leq \sup A \wedge b\leq\sup B \Rightarrow \sup A+ \sup B$ is an upper bound of $A+B$.
+
+  Let $k \in\mathbb{R}\ |\ \forall x\in A+B, \quad x\leq k \Rightarrow \forall a\in A, b\in B \quad a+b\leq k \Rightarrow \forall a\in A\quad a\leq k-b \Rightarrow \sup A \leq k-b,\ \forall b\in B \Rightarrow \forall b\in B, b \leq k-\sup A \Rightarrow \sup B \leq k - \sup A \Rightarrow \sup A + \sup B \leq k$.
+  Thus $\sup A+B = \sup A + \sup B$.
+  \item Same idea.
+  \item $\alpha > 0:\ \alpha A = \{x\in\mathbb{R}\ |\ x=\alpha a,\ a\in A\}$
+  \begin{itemize}
+    \item $\forall x\in A,\ x=\alpha a \leq \alpha \sup A$, since $a\leq \sup B$
+    \item Let $k\in\mathbb{R}\ |\ \forall x\in \alpha A, \quad x\leq k \Rightarrow \forall a\in A,\ \alpha a\leq k$.
+  \end{itemize}
+  Thus $\alpha \sup A = \sup \alpha A$.
+
+  $\inf \alpha A =$ same idea.
+  \item Same idea but $\alpha < 0$ (change in inequalities)
+  \begin{itemize}
+    \item $\forall x\in A,\ x=\alpha A \geq \alpha \sup A$.
+    \item $\forall a\in A,\ \alpha a\geq k \Rightarrow \forall a\in A,\ a\leq \frac{k}{\alpha} \Rightarrow \sup A\leq \frac{k}{\alpha} \Rightarrow \alpha \sup A \geq k$.
+  \end{itemize}
+\end{itemize}
+
+\textbf{1.12}:
+\begin{enumerate}[label=\emph{\alph*})]
+  \item $A = \{2;2.2;2.22;2.222;\ldots\}$
+  \begin{itemize}
+    \item $\forall a\in A, \forall x\in(-\infty,2], x\leq a \Rightarrow (-\infty, 2]$ is the set of lower bounds.
+    \item $\inf A=2$ (the greatest lower bound).
+    \item $\inf A \in A \Rightarrow \min A = 2$.
+    \item $\forall a\in A,\ \forall x\in [2.\wideparen{2}, \infty),\ x\geq a \Rightarrow [2.\wideparen{2}, \infty)$ set of upper bounds.
+    \item $\sup A = 2.\wideparen{2}$ least upper bound.
+    \item $\sup A \notin A$, max does not exist.
+  \end{itemize}
+  \item $\forall r\in\mathbb{R}, z=\text{floor}(r)+1 \in\mathbb{Z}$ and $z>r$.
+
+  $z=\text{floor}(r)-1 \in\mathbb{Z}$ and $z<r \Rightarrow \mathbb{Z}$ does not admit lower bounds.
+  \item Study the roots.
+  \item $2r^3-1 < 15 \Rightarrow r^3 < 8 \Rightarrow r < 2$
+  \begin{itemize}
+    \item $[2,\infty)$ is the set of upper bounds.
+    \item $\sup A = 2$ and $\sup A \notin A$.
+    \item No lower bounds.
+  \end{itemize}
+  \item $x^2-x-2 < 0$
+  \begin{itemize}
+    \item $(-\infty,-1]$ set of lower bounds and $[2,\infty)$ set of upper bounds.
+    \item $\sup A = 2\in\mathbb{R},\quad \inf A = -1\in\mathbb{Q}$
+    \item No max nor min.
+    \item Roots are $-1$ and $2$.
+  \end{itemize}
+\end{enumerate}
 
 \end{document}
