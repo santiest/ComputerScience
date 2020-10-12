@@ -1044,4 +1044,118 @@ Here we only introduce the set of points used in next chapters.
   \end{itemize}
 \end{enumerate}
 
+
+
+
+% New Unit ==========================================================================================================================================
+% New Unit ==========================================================================================================================================
+% New Unit ==========================================================================================================================================
+% New Unit ==========================================================================================================================================
+% New Unit ==========================================================================================================================================
+% New Unit ==========================================================================================================================================
+% New Unit ==========================================================================================================================================
+% New Unit ==========================================================================================================================================
+% New Unit ==========================================================================================================================================
+
+
+
+
+
+
+
+
+
+\chapter{Sequences and Series}
+
+\section{Sequences}
+\textbf{*Basical Concepts:}
+
+\begin{defn} A sequence of real numbers is a map (or function) \newline
+  $f 
+  \begin{alignedat}{2}
+     &  :\mathbb{N} \rightarrow \mathbb{R}\\
+     &  :n \rightarrow f(n)=x_n \\ 
+  \end{alignedat}$ \newline
+  It can be denoted by $(x_n)^b_{n=a}$ where $a$ is the lower value of $n$ or $-\infty$ and $b$ is the upper value or $+\infty$
+\end{defn}
+
+\begin{exmp}
+  $$(\frac{1}{2^n})^3_{n=1} = \{\frac{1}{2}, \frac{1}{4}, \frac{1}{8}\}$$
+  $$(2^n)^\infty_{n=0} = \{1,2,4,8, ...\}$$
+\end{exmp}
+
+\begin{defn} We call recurvise sequence to sequences whose elements are related to 
+  previous elements in a straight-forward way. \textbf{i.e.} $x_{n+1}=f\{x_n,...x_1\}$
+\end{defn}
+
+\begin{exmp}
+  $$x_0=2 \ \Rightarrow \ x_n=(x_{n-1})^2+1 \Rightarrow \ x_0=2,\  x_1=5,\  x_2=26 \ ...$$ \newline
+\end{exmp}
+
+\textbf{*Limit}
+
+\begin{defn} We call $x \in \mathbb{R}$ the limit of $(x_n)^{+\infty}_{n=a}$ if: \newline
+  \text{\hspace{1cm}} $\forall \varepsilon >0, \exists n_0 \in \mathbb{N}$ such that $\forall n >n_0$ we have $\abs*{x_n-x}< ???$ \newline
+  In this case $(x_n)$ is said to converge to the limite $x$ and we denote:
+  $$\lim_{n\rightarrow +\infty}x_n=x$$
+  
+\end{defn}
+
+\begin{defn} $(x_n)^{+\infty}_{n=a}$ is said to converge to \dots
+  \begin{enumerate}[label=\alph*]
+    \item Infinity, if: $\forall n >0, \exists n_0 \in \mathbb{N}$ such that $\forall n >n_0 \Rightarrow x_n>n$
+    \item Minus Infinity, if: $\forall n<0, \exists n_0 \in \mathbb{N}$ such that $\forall n >n_0 \Rightarrow x_n < n$ \newline
+  \end{enumerate}
+\end{defn}
+
+\begin{defn} If a sequence $(x_n)^{+\infty}_{n=a}$ doesn't converge, we denote that it \textbf{diverges}
+\end{defn}
+
+\begin{exmp} \
+  \begin{enumerate}[label=\alph*]
+    \item $\lim_{n \rightarrow +\infty} \frac{1}{n^2+1}=0$ \newline
+    $\text{Let } \varepsilon >0, \text{ (we want) }\abs*{\frac{1}{n^2+1}-0}< \varepsilon$
+    $$\Rightarrow \frac{1}{n^2+1}< \varepsilon \Rightarrow \frac{1}{\varepsilon}-1 < n^2 \Rightarrow \sqrt{\frac{1}{\varepsilon}-1}<n$$
+    $$\Rightarrow N=ceil(\sqrt{\frac{1}{\varepsilon}-1}), \forall n >N \ \frac{1}{n^2+1}< \varepsilon$$
+    $$\Rightarrow 0 \text{ is the limit of } \frac{1}{n^2+1}$$
+    $\varepsilon = 1e^{-3} \Rightarrow N=32 \Rightarrow \frac{1}{32^2+1}=0.9710^{-3}$
+
+    \item  $\abs*{\frac{3n-1}{4n}-\frac{3}{4}} < \varepsilon$ \newline
+    $\text{As } \frac{3n-1}{4n} < \frac{3n}{4n} \Rightarrow \frac{-3n-1}{4n} + \frac{3}{4} < \varepsilon$
+    $$\Rightarrow -(3n-1) < (\varepsilon -\frac{3}{4})4n \Rightarrow 1< ((\varepsilon -\frac{3}{4})4+3)n$$
+    $$\Rightarrow -\frac{1}{4(\varepsilon -\frac{3}{4})+3} < n$$
+    $\text{With } \varepsilon=1e^{-3} \Rightarrow N=250$
+  \end{enumerate}
+\end{exmp}
+
+\begin{defn} A sequence $(x_n)_{n\in \mathbb{N}}$ is said to be an alternating sequence if it is of the form: $x_n=(-1)^n a_n$ with $a_n>0$ or $<0 \ \forall n \in \mathbb{N}$
+\end{defn}
+
+\begin{exmp} If $x_n=(-1)^n a_n$ with $a_n>0$ or $a_n<0$ is convergent 
+  $$\Rightarrow \lim_{n \rightarrow +\infty} x_n=0$$
+\end{exmp}
+
+\begin{proof}
+  $lim_{n \rightarrow +\infty} x_n =L$ with $L \neq 0$ absurd: for the sake of simplicity $L>0$ and $a_n>0$ (other cases lead to a similar proof) \newline
+  $\text{Let } \varepsilon=L-0, \forall N_0 \in \mathbb{N}, \exists n_1=$
+  $\begin{alignedat}{2}
+    &N_0+2 \text{ if $N_0$ is odd}\\
+    &N_0+1 \text{ if $N_0$ is even}\\
+  \end{alignedat}$ \newline
+  $\text{Such that } x_{n1}=(-1)^{n1}a_n<0$
+  $$\Rightarrow \abs*{x_{n-1}-L}= \abs*{a_n+L}> \varepsilon \text{ absurd!}$$
+  $$\Rightarrow L\neq 0 \text{ cannot be limit } \Rightarrow \text{ if } x_n \text{ converges, $0$ must be the limit}$$
+\end{proof}
+
+\begin{prop}
+  $\text{If } (x_n)^{+\infty}_{n=a}$ is convergent, the limit is unique
+\end{prop}
+
+\begin{exmp} $\lim_{n \rightarrow +\infty} \ x_n=x$
+  \begin{enumerate}[label=\alph*]
+    \item $a>x \Rightarrow a-x=$
+  \end{enumerate}
+  
+\end{exmp}
+
 \end{document}
