@@ -24,6 +24,7 @@
 \usepackage{enumitem}
 \usepackage{yhmath}
 
+
 \newcommand{\incfig}[1]{%
 \def\svgscale{1}
 \import{./Graphics/}{#1.pdf_tex}
@@ -1160,6 +1161,45 @@ Here we only introduce the set of points used in next chapters.
   
 \end{exmp}
 
+\section{Series}
+\subsection{Basic Definitions}
+\begin{defn}
+  A series is the sum of the terms of a sequence:
+  \[
+    \sum_{n=a}^{+\infty} x_n = x_a + x_{a+1} + \cdots 
+    \ \ \text{Where} \ (x_n)_{n=a}^{+\infty}
+  \]
+\end{defn}
+
+\begin{defn}
+  A serie is called \textbf{geometric} if it is of the form:
+  \[
+    \sum_{n=0}^{+\infty} a r^n \ \ \text{with } a \neq 0. 
+  \]
+  \center{$r$ is called ratio.}
+  
+\end{defn}
+
+\begin{prop}
+  Convergence of geometric series
+  \[
+    \sum_{n=0}^{+\infty} a r^n \ \ \text{with } a \neq 0.
+  \text{, diverges if } |r| \geq 1
+  \] 
+  \[
+    \text{else it converges and }
+    \sum_{n=0}^{+\infty} a r^n = \dfrac{a}{1-r}
+  \]  
+\end{prop}
+
+\begin{defn}
+  A series is called telescopic if:
+  \[
+    \sum_{n=c}^k a_n = \sum_{n=c}^k b_n - b_{n+1} \text{ with} c,k \in \mathbb{N}
+  \]
+  As $ (b_1 - b_2) + (b_2 - b_3) + \cdots + (b_{k - 1} - b_k)$
+\end{defn}
+
 \chapter{Continious Functions}
 
 \section{Basical concepts of function}
@@ -1171,6 +1211,37 @@ Here we only introduce the set of points used in next chapters.
   we want $ 1-x^2 \geq 0 \rightarrow x \in (-\infty, 1] \cup [1, +\infty) \rightarrow Dom f = (-\infty, -1) \cup [1, +\infty] $
 \end{exmp}
 
+
+\begin{defn}
+  A function is said to be T-periodic if:
+  \[
+    f(x + kT) = f(x) \ \ \forall k \in\mathbb{Z}
+  \]
+\end{defn}
+
+\begin{thm}
+  L'Hopital's rule:
+  \[
+    \lim_{x \rightarrow a} \dfrac{f(x)}{g(x)} = \lim_{x \rightarrow a} \dfrac{f'(x)}{g'(x)}
+  \]
+\end{thm}
+
+\begin{defn}
+  $f: \mathbb{R} \longrightarrow \mathbb{R}, \ \ a \in \text{Dom}(f)$
+  \begin{center}
+    $f$ is continious at $a$ if $lim_{x \rightarrow a}\ f(x) = f(a)$
+    $f$ is continious in an interval $(a, b) \subset \text{Dom}(f)$ 
+    if $\forall x \in (a, b)$, $f$ is continious at $x$
+  \end{center}
+\end{defn}
+
+\begin{thm}
+  $f: \mathbb{R} \longrightarrow \mathbb{R}$ and $I \subset \text{Dom}(f)$
+  \begin{center}
+    If $I$ is compact, then $f$ is bounded and $\exists x_0,x_1 \in k$ such that $x_0 = \max_{x \in I} f(x)$ 
+    and $x_1 = \min_{x \in I} f(x)$
+  \end{center}
+\end{thm}
 
 
 \end{document}
